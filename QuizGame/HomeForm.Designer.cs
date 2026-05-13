@@ -30,10 +30,11 @@
         {
             this.labelQuizGame = new System.Windows.Forms.Label();
             this.buttonStart = new System.Windows.Forms.Button();
-            this.buttonDificultate = new System.Windows.Forms.Button();
             this.buttonHelp = new System.Windows.Forms.Button();
             this.buttonAbout = new System.Windows.Forms.Button();
             this.buttonExit = new System.Windows.Forms.Button();
+            this.comboBoxDifficulty = new System.Windows.Forms.ComboBox();
+            this.labelDifficulty = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelQuizGame
@@ -47,7 +48,7 @@
             // 
             // buttonStart
             // 
-            this.buttonStart.Location = new System.Drawing.Point(354, 168);
+            this.buttonStart.Location = new System.Drawing.Point(354, 178);
             this.buttonStart.Name = "buttonStart";
             this.buttonStart.Size = new System.Drawing.Size(75, 23);
             this.buttonStart.TabIndex = 1;
@@ -55,18 +56,9 @@
             this.buttonStart.UseVisualStyleBackColor = true;
             this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
             // 
-            // buttonDificultate
-            // 
-            this.buttonDificultate.Location = new System.Drawing.Point(354, 224);
-            this.buttonDificultate.Name = "buttonDificultate";
-            this.buttonDificultate.Size = new System.Drawing.Size(75, 23);
-            this.buttonDificultate.TabIndex = 2;
-            this.buttonDificultate.Text = "Dificultate";
-            this.buttonDificultate.UseVisualStyleBackColor = true;
-            // 
             // buttonHelp
             // 
-            this.buttonHelp.Location = new System.Drawing.Point(354, 284);
+            this.buttonHelp.Location = new System.Drawing.Point(354, 285);
             this.buttonHelp.Name = "buttonHelp";
             this.buttonHelp.Size = new System.Drawing.Size(75, 23);
             this.buttonHelp.TabIndex = 3;
@@ -91,16 +83,35 @@
             this.buttonExit.TabIndex = 5;
             this.buttonExit.Text = "Exit";
             this.buttonExit.UseVisualStyleBackColor = true;
+            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
+            // 
+            // comboBoxDifficulty
+            // 
+            this.comboBoxDifficulty.FormattingEnabled = true;
+            this.comboBoxDifficulty.Location = new System.Drawing.Point(389, 224);
+            this.comboBoxDifficulty.Name = "comboBoxDifficulty";
+            this.comboBoxDifficulty.Size = new System.Drawing.Size(121, 24);
+            this.comboBoxDifficulty.TabIndex = 6;
+            // 
+            // labelDifficulty
+            // 
+            this.labelDifficulty.AutoSize = true;
+            this.labelDifficulty.Location = new System.Drawing.Point(313, 227);
+            this.labelDifficulty.Name = "labelDifficulty";
+            this.labelDifficulty.Size = new System.Drawing.Size(59, 16);
+            this.labelDifficulty.TabIndex = 7;
+            this.labelDifficulty.Text = "Difficulty:";
             // 
             // HomeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelDifficulty);
+            this.Controls.Add(this.comboBoxDifficulty);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonAbout);
             this.Controls.Add(this.buttonHelp);
-            this.Controls.Add(this.buttonDificultate);
             this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.labelQuizGame);
             this.Name = "HomeForm";
@@ -114,9 +125,10 @@
 
         private System.Windows.Forms.Label labelQuizGame;
         private System.Windows.Forms.Button buttonStart;
-        private System.Windows.Forms.Button buttonDificultate;
         private System.Windows.Forms.Button buttonHelp;
         private System.Windows.Forms.Button buttonAbout;
         private System.Windows.Forms.Button buttonExit;
+        private System.Windows.Forms.ComboBox comboBoxDifficulty;
+        private System.Windows.Forms.Label labelDifficulty;
     }
 }

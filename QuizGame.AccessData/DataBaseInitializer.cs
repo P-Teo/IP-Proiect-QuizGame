@@ -18,15 +18,19 @@ namespace QuizGame.AccessData
         //Metoda care va fi apelata la pornirea programului
         public void InitializeDatabase()
         {
-            //Verificam daca baza de date exista deja pentru a nu o suprascrie
-            if (!File.Exists(DatabaseFileName))
+            try
             {
-                //Cream fisierul fizic al bazei de date
-                SQLiteConnection.CreateFile(DatabaseFileName);
+                if (!File.Exists(DatabaseFileName))
+                {
+                    SQLiteConnection.CreateFile(DatabaseFileName);
+                }
 
+                CreateTables();
             }
-            //Cream tabelele necesare
-            CreateTables();
+            catch (Exception ex)
+            {
+                throw new Exception($"Eroare la inițializarea bazei de date: {ex.Message}");
+            }
         }
         private void CreateTables()
         {
@@ -55,62 +59,83 @@ namespace QuizGame.AccessData
         //de rescris
         public void InsertQuestion(Question q)
         {
-            using (var connection = new SQLiteConnection(ConnectionString))
+            try
             {
-                connection.Open();
+                using (var connection = new SQLiteConnection(ConnectionString))
+                {
+                    connection.Open();
 
-                // Folosim parametri (@) pentru a preveni erorile și SQL Injection
-                string insertQuery = @"
-            INSERT INTO Questions (QuestionText, QuestionA, QuestionB, QuestionC, QuestionD, CorrectOption, DifficultyLevel) 
+                    string insertQuery = @"
+            INSERT INTO Questions 
+            (QuestionText, QuestionA, QuestionB, QuestionC, QuestionD, CorrectOption, DifficultyLevel) 
             VALUES (@text, @a, @b, @c, @d, @correct, @diff)";
 
-                using (var command = new SQLiteCommand(insertQuery, connection))
-                {
-                    // Legăm datele din obiectul Question de parametrii din comanda SQL
-                    command.Parameters.AddWithValue("@text", q.QuestionText);
-                    command.Parameters.AddWithValue("@a", q.OptionA);
-                    command.Parameters.AddWithValue("@b", q.OptionB);
-                    command.Parameters.AddWithValue("@c", q.OptionC);
-                    command.Parameters.AddWithValue("@d", q.OptionD);
-                    command.Parameters.AddWithValue("@correct", q.CorrectOption);
-                    command.Parameters.AddWithValue("@diff", q.DifficultyLevel);
+                    using (var command = new SQLiteCommand(insertQuery, connection))
+                    {
+                        command.Parameters.AddWithValue("@text", q.QuestionText);
+                        command.Parameters.AddWithValue("@a", q.OptionA);
+                        command.Parameters.AddWithValue("@b", q.OptionB);
+                        command.Parameters.AddWithValue("@c", q.OptionC);
+                        command.Parameters.AddWithValue("@d", q.OptionD);
+                        command.Parameters.AddWithValue("@correct", q.CorrectOption);
+                        command.Parameters.AddWithValue("@diff", q.DifficultyLevel);
 
-                    command.ExecuteNonQuery();
+                        command.ExecuteNonQuery();
+                    }
                 }
+            }
+            catch (SQLiteException ex)
+            {
+                throw new Exception($"Eroare SQL la inserarea întrebării: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Eroare generală: {ex.Message}");
             }
         }
         //de rescris asta
         public List<Question> GetAllQuestions()
         {
-            var questions = new List<Question>();
-            // Folosim ConnectionString-ul definit anterior
-            string connectionString = "Data Source=quizDatabase.sqlite; Version=3;";
-
-            using (var connection = new SQLiteConnection(connectionString))
+            try
             {
-                connection.Open();
-                string selectQuery = "SELECT * FROM Questions";
+                var questions = new List<Question>();
 
-                using (var command = new SQLiteCommand(selectQuery, connection))
-                using (var reader = command.ExecuteReader())
+                using (var connection = new SQLiteConnection(ConnectionString))
                 {
-                    while (reader.Read())
+                    connection.Open();
+
+                    string selectQuery = "SELECT * FROM Questions";
+
+                    using (var command = new SQLiteCommand(selectQuery, connection))
+                    using (var reader = command.ExecuteReader())
                     {
-                        questions.Add(new Question
+                        while (reader.Read())
                         {
-                            Id = Convert.ToInt32(reader["Id"]),
-                            QuestionText = reader["QuestionText"].ToString(),
-                            OptionA = reader["QuestionA"].ToString(),
-                            OptionB = reader["QuestionB"].ToString(),
-                            OptionC = reader["QuestionC"].ToString(),
-                            OptionD = reader["QuestionD"].ToString(),
-                            CorrectOption = reader["CorrectOption"].ToString(),
-                            DifficultyLevel = reader["DifficultyLevel"].ToString()
-                        });
+                            questions.Add(new Question
+                            {
+                                Id = Convert.ToInt32(reader["Id"]),
+                                QuestionText = reader["QuestionText"].ToString(),
+                                OptionA = reader["QuestionA"].ToString(),
+                                OptionB = reader["QuestionB"].ToString(),
+                                OptionC = reader["QuestionC"].ToString(),
+                                OptionD = reader["QuestionD"].ToString(),
+                                CorrectOption = reader["CorrectOption"].ToString(),
+                                DifficultyLevel = reader["DifficultyLevel"].ToString()
+                            });
+                        }
                     }
                 }
+
+                return questions;
             }
-            return questions;
+            catch (SQLiteException ex)
+            {
+                throw new Exception($"Eroare SQL la extragerea întrebărilor: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Eroare generală: {ex.Message}");
+            }
         }
 
         public List<Question> GetQuestionsByDifficulty(string difficulty)

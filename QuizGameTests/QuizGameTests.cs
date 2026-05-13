@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using QuizGame.AccessData;
 using QuizGame.Logic;
+using QuizGame.Logic.Strategies;
 using System;
 
 namespace QuizGame.Tests
@@ -11,7 +12,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void CheckAnswer_RaspunsCorect_ReturneazaTrue()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             bool rezultat = manager.CheckAnswer("Paris", "Paris");
             Assert.IsTrue(rezultat);
         }
@@ -19,7 +20,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void CheckAnswer_RaspunsGresit_ReturneazaFalse()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             bool rezultat = manager.CheckAnswer("Roma", "Paris");
             Assert.IsFalse(rezultat);
         }
@@ -27,7 +28,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void CheckAnswer_RaspunsCorect_ScorulCreste()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             manager.CheckAnswer("Paris", "Paris");
             Assert.AreEqual(1, manager.Score);
         }
@@ -35,7 +36,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void CheckAnswer_RaspunsGresit_ScorulNuCreste()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             manager.CheckAnswer("Roma", "Paris");
             Assert.AreEqual(0, manager.Score);
         }
@@ -43,7 +44,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void CheckAnswer_DoiRaspunsuriCorecte_ScorulEste2()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             manager.CheckAnswer("Paris", "Paris");
             manager.CheckAnswer("7", "7");
             Assert.AreEqual(2, manager.Score);
@@ -52,7 +53,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void CheckAnswer_StringGol_ReturneazaFalse()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             bool rezultat = manager.CheckAnswer("", "Paris");
             Assert.IsFalse(rezultat);
         }
@@ -60,7 +61,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void CheckAnswer_CaseSensitive_ReturneazaFalse()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             bool rezultat = manager.CheckAnswer("paris", "Paris");
             Assert.IsFalse(rezultat);
         }
@@ -68,7 +69,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void CheckAnswer_AmbeleStringuriGoale_ReturneazaTrue()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             bool rezultat = manager.CheckAnswer("", "");
             Assert.IsTrue(rezultat);
         }
@@ -78,14 +79,14 @@ namespace QuizGame.Tests
         [TestMethod]
         public void Score_Initial_EsteZero()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             Assert.AreEqual(0, manager.Score);
         }
 
         [TestMethod]
         public void Score_DupaSetupGame_EsteZero()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             manager.SetupGame();
             Assert.AreEqual(0, manager.Score);
         }
@@ -93,7 +94,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void Score_DupaUnRaspunsCorect_EsteUnu()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             manager.CheckAnswer("Paris", "Paris");
             Assert.AreEqual(1, manager.Score);
         }
@@ -101,7 +102,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void Score_DupaSetupGameDinNou_SeReseteazaLaZero()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             manager.CheckAnswer("Paris", "Paris");
             manager.SetupGame(); // reset
             Assert.AreEqual(0, manager.Score);
@@ -112,7 +113,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void GetCurrentQuestion_DupaSetupGame_NuEsteNull()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             manager.SetupGame();
             var intrebare = manager.GetCurrentQuestion();
             Assert.IsNotNull(intrebare);
@@ -121,7 +122,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void GetCurrentQuestion_PrimaIntrebare_AreText()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             manager.SetupGame();
             var intrebare = manager.GetCurrentQuestion();
             Assert.IsFalse(string.IsNullOrEmpty(intrebare.QuestionText));
@@ -130,7 +131,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void GetCurrentQuestion_PrimaIntrebare_Are4Variante()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             manager.SetupGame();
             var intrebare = manager.GetCurrentQuestion();
             Assert.IsFalse(string.IsNullOrEmpty(intrebare.OptionA));
@@ -142,7 +143,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void GetCurrentQuestion_PrimaIntrebare_AreRaspunsCorect()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             manager.SetupGame();
             var intrebare = manager.GetCurrentQuestion();
             Assert.IsFalse(string.IsNullOrEmpty(intrebare.CorrectOption));
@@ -153,7 +154,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void NextQuestion_SchimbaIntrebareaCurenta()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             manager.SetupGame();
             var primaIntrebare = manager.GetCurrentQuestion();
             manager.NextQuestion();
@@ -164,7 +165,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void NextQuestion_DupaToateIntrebarile_ReturneazaNull()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             manager.SetupGame();
 
             // Trecem prin toate întrebările
@@ -202,7 +203,7 @@ namespace QuizGame.Tests
         [TestMethod]
         public void Question_RaspunsCorectEsteUnadinVariante()
         {
-            var manager = new QuizManager();
+            var manager = new QuizManager(new EasyStrategy());
             manager.SetupGame();
             var intrebare = manager.GetCurrentQuestion();
 

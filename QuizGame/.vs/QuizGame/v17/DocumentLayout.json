@@ -1,53 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\",
+  "WorkspaceRootPath": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|d:\\an3-sem2\\ip\\proiect\\proiect-git\\ip-proiect-quizgame\\quizgame\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|solutionrelative:homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|d:\\an3-sem2\\ip\\proiect\\proiect-git\\ip-proiect-quizgame\\quizgame\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|solutionrelative:homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|d:\\an3-sem2\\ip\\proiect\\proiect-git\\ip-proiect-quizgame\\quizgame\\endform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|solutionrelative:endform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB10D7BF-F64B-4A77-89CD-88AD950D2D3F}|..\\QuizGame.AccessData\\QuizGame.AccessData.csproj|c:\\users\\new_l\\onedrive\\documents\\aici\\ip-proiect-quizgame\\quizgame.accessdata\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|d:\\an3-sem2\\ip\\proiect\\proiect-git\\ip-proiect-quizgame\\quizgame\\endform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FB10D7BF-F64B-4A77-89CD-88AD950D2D3F}|..\\QuizGame.AccessData\\QuizGame.AccessData.csproj|c:\\users\\new_l\\onedrive\\documents\\aici\\ip-proiect-quizgame\\quizgame.accessdata\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E816ED3-67ED-4AD6-9592-D92EEE9F0F5A}|..\\QuizGame.Logic\\QuizGame.Logic.csproj|c:\\users\\new_l\\onedrive\\documents\\aici\\ip-proiect-quizgame\\quizgame.logic\\quizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E816ED3-67ED-4AD6-9592-D92EEE9F0F5A}|..\\QuizGame.Logic\\QuizGame.Logic.csproj|c:\\users\\new_l\\onedrive\\documents\\aici\\ip-proiect-quizgame\\quizgame.logic\\mediumstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E816ED3-67ED-4AD6-9592-D92EEE9F0F5A}|..\\QuizGame.Logic\\QuizGame.Logic.csproj|c:\\users\\new_l\\onedrive\\documents\\aici\\ip-proiect-quizgame\\quizgame.logic\\iquizstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31FC5C0-D603-4FCB-A074-761432BB853C}|..\\QuizGameTests\\QuizGame.Tests.csproj|c:\\users\\new_l\\onedrive\\documents\\aici\\ip-proiect-quizgame\\quizgametests\\quizgametests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E816ED3-67ED-4AD6-9592-D92EEE9F0F5A}|..\\QuizGame.Logic\\QuizGame.Logic.csproj|c:\\users\\new_l\\onedrive\\documents\\aici\\ip-proiect-quizgame\\quizgame.logic\\easystrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|c:\\users\\new_l\\onedrive\\documents\\aici\\ip-proiect-quizgame\\quizgame\\endform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|solutionrelative:endform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\endform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|solutionrelative:endform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E816ED3-67ED-4AD6-9592-D92EEE9F0F5A}|..\\QuizGame.Logic\\QuizGame.Logic.csproj|d:\\an3-sem2\\ip\\proiect\\proiect-git\\ip-proiect-quizgame\\quizgame.logic\\quizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\endform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|solutionrelative:endform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D31FC5C0-D603-4FCB-A074-761432BB853C}|..\\QuizGameTests\\QuizGame.Tests.csproj|d:\\an3-sem2\\ip\\proiect\\proiect-git\\ip-proiect-quizgame\\quizgametests\\quizgametests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB10D7BF-F64B-4A77-89CD-88AD950D2D3F}|..\\QuizGame.AccessData\\QuizGame.AccessData.csproj|c:\\users\\new_l\\onedrive\\documents\\aici\\ip-proiect-quizgame\\quizgame.accessdata\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|solutionrelative:homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|c:\\users\\new_l\\onedrive\\documents\\aici\\ip-proiect-quizgame\\quizgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E816ED3-67ED-4AD6-9592-D92EEE9F0F5A}|..\\QuizGame.Logic\\QuizGame.Logic.csproj|c:\\users\\new_l\\onedrive\\documents\\aici\\ip-proiect-quizgame\\quizgame.logic\\hardstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|QuizGame.Tests||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ip\\Proiect-QuizGame\\QuizGameTests\\QuizGameTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{35154B80-1613-404A-8C84-66DC0297CED1}|QuizGame.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\An3-sem2\\IP\\Proiect\\QuizGame.AccessData\\DataBaseInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\An3-sem2\\IP\\Proiect\\QuizGame\\packages\\SourceGear.sqlite3.3.50.4.5\\build\\net471\\SourceGear.sqlite3.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\An3-sem2\\IP\\Proiect\\QuizGame.AccessData\\Question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -60,6 +85,15 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ip\\Proiect-QuizGame\\QuizGame.AccessData\\DataBaseInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame.Logic\\QuizManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGameTests\\QuizGameTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31FC5C0-D603-4FCB-A074-761432BB853C}|..\\QuizGameTests\\QuizGame.Tests.csproj|c:\\users\\new_l\\onedrive\\documents\\aici\\ip-proiect-quizgame\\quizgametests\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,107 +103,145 @@
       "DocumentGroups": [
         {
           "DockedHeight": 282,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.AccessData\\packages.config",
+              "RelativeDocumentMoniker": "..\\QuizGame.AccessData\\packages.config",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.AccessData\\packages.config",
+              "RelativeToolTip": "..\\QuizGame.AccessData\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-13T17:17:50.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EndForm.cs",
-              "DocumentMoniker": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\EndForm.cs",
-              "RelativeDocumentMoniker": "EndForm.cs",
-              "ToolTip": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\EndForm.cs",
-              "RelativeToolTip": "EndForm.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAArwB4AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DataBaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.AccessData\\DataBaseInitializer.cs",
+              "RelativeDocumentMoniker": "..\\QuizGame.AccessData\\DataBaseInitializer.cs",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.AccessData\\DataBaseInitializer.cs",
+              "RelativeToolTip": "..\\QuizGame.AccessData\\DataBaseInitializer.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAADwv4oAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T07:51:26.327Z",
+              "WhenOpened": "2026-05-13T13:22:09.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IQuizStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.Logic\\IQuizStrategy.cs",
+              "RelativeDocumentMoniker": "..\\QuizGame.Logic\\IQuizStrategy.cs",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.Logic\\IQuizStrategy.cs",
+              "RelativeToolTip": "..\\QuizGame.Logic\\IQuizStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T15:15:21.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "QuizManager.cs",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.Logic\\QuizManager.cs",
+              "RelativeDocumentMoniker": "..\\QuizGame.Logic\\QuizManager.cs",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.Logic\\QuizManager.cs",
+              "RelativeToolTip": "..\\QuizGame.Logic\\QuizManager.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwEQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T13:19:16.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuizGameTests.cs",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGameTests\\QuizGameTests.cs",
+              "RelativeDocumentMoniker": "..\\QuizGameTests\\QuizGameTests.cs",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGameTests\\QuizGameTests.cs",
+              "RelativeToolTip": "..\\QuizGameTests\\QuizGameTests.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T13:22:35.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EasyStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.Logic\\EasyStrategy.cs",
+              "RelativeDocumentMoniker": "..\\QuizGame.Logic\\EasyStrategy.cs",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.Logic\\EasyStrategy.cs",
+              "RelativeToolTip": "..\\QuizGame.Logic\\EasyStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T15:20:38.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HomeForm.cs",
-              "DocumentMoniker": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\HomeForm.cs",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\HomeForm.cs",
               "RelativeDocumentMoniker": "HomeForm.cs",
-              "ToolTip": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\HomeForm.cs",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\HomeForm.cs",
               "RelativeToolTip": "HomeForm.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAnwA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T07:49:22.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeForm.cs [Design]",
-              "DocumentMoniker": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\HomeForm.cs",
-              "RelativeDocumentMoniker": "HomeForm.cs",
-              "ToolTip": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\HomeForm.cs [Design]",
-              "RelativeToolTip": "HomeForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T07:35:24.103Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T13:38:24.288Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\Form1.cs",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAIA1wDoAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T08:39:00.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBMAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "EndForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\EndForm.Designer.cs",
+              "RelativeDocumentMoniker": "EndForm.Designer.cs",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\EndForm.Designer.cs",
+              "RelativeToolTip": "EndForm.Designer.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAADgvzkAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T20:28:01.453Z",
+              "WhenOpened": "2026-05-13T16:56:37.977Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MediumStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.Logic\\MediumStrategy.cs",
+              "RelativeDocumentMoniker": "..\\QuizGame.Logic\\MediumStrategy.cs",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.Logic\\MediumStrategy.cs",
+              "RelativeToolTip": "..\\QuizGame.Logic\\MediumStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T15:23:09.279Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "EndForm.cs [Design]",
-              "DocumentMoniker": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\EndForm.cs",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\EndForm.cs",
               "RelativeDocumentMoniker": "EndForm.cs",
-              "ToolTip": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\EndForm.cs [Design]",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\EndForm.cs [Design]",
               "RelativeToolTip": "EndForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T07:35:49.269Z",
@@ -177,134 +249,180 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "QuizManager.cs",
-              "DocumentMoniker": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame.Logic\\QuizManager.cs",
-              "RelativeDocumentMoniker": "..\\QuizGame.Logic\\QuizManager.cs",
-              "ToolTip": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame.Logic\\QuizManager.cs",
-              "RelativeToolTip": "..\\QuizGame.Logic\\QuizManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABKAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "EndForm.cs",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\EndForm.cs",
+              "RelativeDocumentMoniker": "EndForm.cs",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\EndForm.cs",
+              "RelativeToolTip": "EndForm.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T15:56:18.908Z",
+              "WhenOpened": "2026-05-13T07:51:26.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.AccessData\\Question.cs",
+              "RelativeDocumentMoniker": "..\\QuizGame.AccessData\\Question.cs",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.AccessData\\Question.cs",
+              "RelativeToolTip": "..\\QuizGame.AccessData\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T13:21:50.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\HomeForm.cs",
+              "RelativeDocumentMoniker": "HomeForm.cs",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\HomeForm.cs [Design]",
+              "RelativeToolTip": "HomeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:35:24.103Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T20:28:01.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HardStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.Logic\\HardStrategy.cs",
+              "RelativeDocumentMoniker": "..\\QuizGame.Logic\\HardStrategy.cs",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame.Logic\\HardStrategy.cs",
+              "RelativeToolTip": "..\\QuizGame.Logic\\HardStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T15:23:53.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:38:24.288Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "QuizGame.Tests",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGameTests\\QuizGame.Tests.csproj",
+              "RelativeDocumentMoniker": "..\\QuizGameTests\\QuizGame.Tests.csproj",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGameTests\\QuizGame.Tests.csproj",
+              "RelativeToolTip": "..\\QuizGameTests\\QuizGame.Tests.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-13T14:58:24.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "QuizManager.cs",
+              "DocumentMoniker": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame.Logic\\QuizManager.cs",
+              "ToolTip": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame.Logic\\QuizManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T15:56:18.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "QuizManager.cs",
               "DocumentMoniker": "D:\\ip\\Proiect-QuizGame\\QuizGame.Logic\\QuizManager.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\ip\\Proiect-QuizGame\\QuizGame.Logic\\QuizManager.cs",
               "ToolTip": "D:\\ip\\Proiect-QuizGame\\QuizGame.Logic\\QuizManager.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\ip\\Proiect-QuizGame\\QuizGame.Logic\\QuizManager.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAcwDYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T14:14:25.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "Question.cs",
               "DocumentMoniker": "D:\\ip\\Proiect-QuizGame\\QuizGame.AccessData\\Question.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\ip\\Proiect-QuizGame\\QuizGame.AccessData\\Question.cs",
               "ToolTip": "D:\\ip\\Proiect-QuizGame\\QuizGame.AccessData\\Question.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\ip\\Proiect-QuizGame\\QuizGame.AccessData\\Question.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAYwA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T14:14:17.641Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "DataBaseInitializer.cs",
               "DocumentMoniker": "D:\\ip\\Proiect-QuizGame\\QuizGame.AccessData\\DataBaseInitializer.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\ip\\Proiect-QuizGame\\QuizGame.AccessData\\DataBaseInitializer.cs",
               "ToolTip": "D:\\ip\\Proiect-QuizGame\\QuizGame.AccessData\\DataBaseInitializer.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\ip\\Proiect-QuizGame\\QuizGame.AccessData\\DataBaseInitializer.cs",
               "ViewState": "AgIAAH0AAAAAAAAAAAAcwJEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T14:11:55.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "DataBaseInitializer.cs",
               "DocumentMoniker": "D:\\An3-sem2\\IP\\Proiect\\QuizGame.AccessData\\DataBaseInitializer.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\QuizGame.AccessData\\DataBaseInitializer.cs",
               "ToolTip": "D:\\An3-sem2\\IP\\Proiect\\QuizGame.AccessData\\DataBaseInitializer.cs",
-              "RelativeToolTip": "..\\..\\..\\QuizGame.AccessData\\DataBaseInitializer.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T13:45:20.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "Question.cs",
               "DocumentMoniker": "D:\\An3-sem2\\IP\\Proiect\\QuizGame.AccessData\\Question.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\QuizGame.AccessData\\Question.cs",
               "ToolTip": "D:\\An3-sem2\\IP\\Proiect\\QuizGame.AccessData\\Question.cs",
-              "RelativeToolTip": "..\\..\\..\\QuizGame.AccessData\\Question.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T20:09:04.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "QuizGameTests.cs",
               "DocumentMoniker": "D:\\ip\\Proiect-QuizGame\\QuizGameTests\\QuizGameTests.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\ip\\Proiect-QuizGame\\QuizGameTests\\QuizGameTests.cs",
               "ToolTip": "D:\\ip\\Proiect-QuizGame\\QuizGameTests\\QuizGameTests.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\ip\\Proiect-QuizGame\\QuizGameTests\\QuizGameTests.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T14:32:53.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 26,
               "Title": "QuizGameTests.cs",
               "DocumentMoniker": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGameTests\\QuizGameTests.cs",
-              "RelativeDocumentMoniker": "..\\QuizGameTests\\QuizGameTests.cs",
               "ToolTip": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGameTests\\QuizGameTests.cs",
-              "RelativeToolTip": "..\\QuizGameTests\\QuizGameTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T15:54:33.08Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "packages.config",
-              "DocumentMoniker": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\packages.config",
+              "DocumentMoniker": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\packages.config",
               "RelativeDocumentMoniker": "packages.config",
-              "ToolTip": "D:\\An3-sem2\\IP\\Proiect\\Proiect-Git\\IP-Proiect-QuizGame\\QuizGame\\packages.config",
+              "ToolTip": "C:\\Users\\new_l\\OneDrive\\Documents\\aici\\IP-Proiect-QuizGame\\QuizGame\\packages.config",
               "RelativeToolTip": "packages.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2026-05-10T14:13:50.006Z"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 118,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SourceGear.sqlite3.props",
-              "DocumentMoniker": "D:\\An3-sem2\\IP\\Proiect\\QuizGame\\packages\\SourceGear.sqlite3.3.50.4.5\\build\\net471\\SourceGear.sqlite3.props",
-              "RelativeDocumentMoniker": "..\\..\\..\\QuizGame\\packages\\SourceGear.sqlite3.3.50.4.5\\build\\net471\\SourceGear.sqlite3.props",
-              "ToolTip": "D:\\An3-sem2\\IP\\Proiect\\QuizGame\\packages\\SourceGear.sqlite3.3.50.4.5\\build\\net471\\SourceGear.sqlite3.props",
-              "RelativeToolTip": "..\\..\\..\\QuizGame\\packages\\SourceGear.sqlite3.3.50.4.5\\build\\net471\\SourceGear.sqlite3.props",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-05-10T09:30:57.71Z"
             }
           ]
         }

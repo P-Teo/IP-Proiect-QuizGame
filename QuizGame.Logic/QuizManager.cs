@@ -1,30 +1,35 @@
-﻿using System;
+﻿using QuizGame.AccessData;
+using QuizGame.Logic.Strategies;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using QuizGame.AccessData;
 
 namespace QuizGame.Logic
 {
     public class QuizManager
     {
+        private IQuizStrategy _strategy;
         private int _score;
         private int _currentQuestionIndex;
         private List<Question> _question;
         private DataBaseInitializer _dbInit = new DataBaseInitializer();
 
         public int Score => _score;
-
+        public QuizManager(IQuizStrategy strategy)
+        {
+            _strategy = strategy;
+        }
         public void SetupGame()
         {
             //Interfata cere logicii initializarea, logica cere AccessData
             _dbInit.InitializeDatabase();
             //extragem intrebarile
-            _question = _dbInit.GetAllQuestions();
+            _question = _strategy.FilterQuestions(_dbInit.GetAllQuestions());
 
             //daca lista este goala, adaugam intrebarile
-            if(_question.Count == 0)
+            if (_question.Count == 0)
             {
                 // ===== UȘOR =====
                 _dbInit.InsertQuestion(new Question { QuestionText = "Care este cel mai mare ocean din lume?", OptionA = "Oceanul Atlantic", OptionB = "Oceanul Indian", OptionC = "Oceanul Pacific", OptionD = "Oceanul Arctic", CorrectOption = "Oceanul Pacific", DifficultyLevel = "Usor" });
@@ -59,22 +64,22 @@ namespace QuizGame.Logic
         }
         public bool CheckAnswer(string selectedOption, string correctOption)
         {
-            if(selectedOption == correctOption)
+            if (selectedOption == correctOption)
             {
-                _score++;
+                _score = _strategy.CalculateScore(_score);
                 return true;
             }
+
             return false;
         }
-        
-        //de rescris asta
+
         public Question GetCurrentQuestion()
         {
             if (_question != null && _currentQuestionIndex < _question.Count)
             {
                 return _question[_currentQuestionIndex];
             }
-            return null; // Nu mai sunt întrebări
+            return null; // Nu mai sunt întrebari
         }
 
         public void NextQuestion()

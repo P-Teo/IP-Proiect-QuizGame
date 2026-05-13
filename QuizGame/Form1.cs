@@ -1,32 +1,49 @@
 ﻿using QuizGame.Logic;
+using QuizGame.Logic.Strategies;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Security.Cryptography;
 
 namespace QuizGame
 {
     public partial class FormQuiz : Form
     {
         private QuizManager _quizManager;
-        public FormQuiz()
+  
+
+        public FormQuiz(IQuizStrategy strategy)
         {
             InitializeComponent();
-            _quizManager = new QuizManager();
 
-            //Declanseaza crearea bazei de date
-            _quizManager.SetupGame();
+            _quizManager = new QuizManager(strategy);
+
+            try
+            {
+                _quizManager.SetupGame();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void FormQuiz_Load(object sender, EventArgs e)
         {
-            _quizManager.SetupGame();
+            try
+            {
+                _quizManager.SetupGame();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
             AfiseazaIntrebareaCurenta();
 
         }
