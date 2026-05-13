@@ -53,9 +53,10 @@ namespace QuizGame
             }
             else
             {
-                //nu mai sunt intrebari
-                MessageBox.Show($"Quiz Terminat! Scorul final este: {_quizManager.Score}");
-                this.Close();
+                // Nu mai sunt întrebări - deschidem pagina de final și trimitem scorul
+                EndForm paginaFinal = new EndForm(_quizManager.Score);
+                paginaFinal.Show();
+                this.Close(); // Închidem fereastra cu întrebările
             }
         }
 

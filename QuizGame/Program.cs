@@ -16,7 +16,7 @@ namespace QuizGame
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormQuiz());
+            Application.Run(new HomeForm());
         }
     }
 }
