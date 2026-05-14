@@ -122,6 +122,7 @@
             this.Controls.Add(this.radioButtonOptionA);
             this.Controls.Add(this.labelQuestion);
             this.Name = "FormQuiz";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quiz";
             this.Load += new System.EventHandler(this.FormQuiz_Load);
             this.ResumeLayout(false);

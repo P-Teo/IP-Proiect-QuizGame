@@ -70,6 +70,7 @@
             this.Controls.Add(this.labelScor);
             this.Controls.Add(this.labelFelicitari);
             this.Name = "EndForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EndForm";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -16,11 +16,12 @@ namespace QuizGame
     public partial class FormQuiz : Form
     {
         private QuizManager _quizManager;
-  
+        private bool _quizFinished = false;
 
         public FormQuiz(IQuizStrategy strategy)
         {
             InitializeComponent();
+            this.FormClosed += (s, e) => { if (!_quizFinished) Application.Exit(); };
 
             _quizManager = new QuizManager(strategy);
 
@@ -70,10 +71,10 @@ namespace QuizGame
             }
             else
             {
-                // Nu mai sunt întrebări - deschidem pagina de final și trimitem scorul
+                _quizFinished = true;
                 EndForm paginaFinal = new EndForm(_quizManager.Score);
                 paginaFinal.Show();
-                this.Close(); // Închidem fereastra cu întrebările
+                this.Close();
             }
         }
 

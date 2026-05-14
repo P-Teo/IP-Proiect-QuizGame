@@ -16,11 +16,14 @@ namespace QuizGame
         public HomeForm()
         {
             InitializeComponent();
+            this.FormClosed += (s, e) => Application.Exit();
             comboBoxDifficulty.Items.Add("Usor");
             comboBoxDifficulty.Items.Add("Mediu");
             comboBoxDifficulty.Items.Add("Greu");
 
             comboBoxDifficulty.SelectedIndex = 0;
+
+            
         }
 
         private void buttonStart_Click(object sender, EventArgs e)

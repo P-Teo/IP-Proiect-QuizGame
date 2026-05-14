@@ -18,6 +18,8 @@ namespace QuizGame
 
             // Afișăm scorul în label-ul de pe ecran
             labelScor.Text = $"Felicitări! Ai terminat quiz-ul.\nScorul tău final este: {scorFinal}";
+
+
         }
 
         private void buttonExit_Click(object sender, EventArgs e)
@@ -27,6 +29,7 @@ namespace QuizGame
         // Dacă utilizatorul apasă pe "X" sus în dreapta, ne asigurăm că aplicația se închide complet
         protected override void OnFormClosed(FormClosedEventArgs e)
         {
+            base.OnFormClosed(e);
             Application.Exit();
         }
     }

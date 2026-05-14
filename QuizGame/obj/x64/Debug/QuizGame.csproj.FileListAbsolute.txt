@@ -102,3 +102,5 @@ C:\Users\new_l\OneDrive\Documents\aici\IP-Proiect-QuizGame\QuizGame\obj\x64\Debu
 C:\Users\new_l\OneDrive\Documents\aici\IP-Proiect-QuizGame\QuizGame\obj\x64\Debug\QuizGame.csproj.Up2Date
 C:\Users\new_l\OneDrive\Documents\aici\IP-Proiect-QuizGame\QuizGame\obj\x64\Debug\QuizGame.exe
 C:\Users\new_l\OneDrive\Documents\aici\IP-Proiect-QuizGame\QuizGame\obj\x64\Debug\QuizGame.pdb
+D:\ip\Proiect-QuizGame\QuizGame\obj\x64\Debug\QuizGame.EndForm.resources
+D:\ip\Proiect-QuizGame\QuizGame\obj\x64\Debug\QuizGame.HomeForm.resources

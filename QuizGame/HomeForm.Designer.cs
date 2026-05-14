@@ -115,6 +115,7 @@
             this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.labelQuizGame);
             this.Name = "HomeForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HomeForm";
             this.ResumeLayout(false);
             this.PerformLayout();
