@@ -77,39 +77,47 @@ namespace QuizGame
                 this.Close();
             }
         }
+        private string GetRaspunsSelectat()
+        {
+            if (radioButtonOptionA.Checked) return radioButtonOptionA.Text;
+            if (radioButtonOptionB.Checked) return radioButtonOptionB.Text;
+            if (radioButtonOptionC.Checked) return radioButtonOptionC.Text;
+            if (radioButtonOptionD.Checked) return radioButtonOptionD.Text;
 
+            throw new QuizException("Te rog să selectezi un răspuns!");
+        }
         private void buttonNext_Click(object sender, EventArgs e)
         {
-            var intrebare = _quizManager.GetCurrentQuestion();
-            if (intrebare == null)
-                return;
+            
 
-            string raspunsSelectat = "";
-
-            //verificam daca butoanul a fost selectat
-            if (radioButtonOptionA.Checked) raspunsSelectat = radioButtonOptionA.Text;
-            else if (radioButtonOptionB.Checked) raspunsSelectat = radioButtonOptionB.Text;
-            else if (radioButtonOptionC.Checked) raspunsSelectat = radioButtonOptionC.Text;
-            else if (radioButtonOptionD.Checked) raspunsSelectat = radioButtonOptionD.Text;
-            else
+            try
             {
-                MessageBox.Show("Te rog sa selectezi un raspuns!");
-                return;
+                var intrebare = _quizManager.GetCurrentQuestion();
+                if (intrebare == null)
+                    return;
+
+                string raspunsSelectat = "";
+                raspunsSelectat = GetRaspunsSelectat();
+                bool eCorect = _quizManager.CheckAnswer(raspunsSelectat, intrebare.CorrectOption);
+
+                if(!eCorect)
+                {
+                    MessageBox.Show($"Raspuns gresit! Varianta corecta era: {intrebare.CorrectOption}");
+                }
+
+            //trecem la urmatoarea intrebare
+                _quizManager.NextQuestion();
+
+            //reimprospatare ecran
+                AfiseazaIntrebareaCurenta();
+            }
+            catch (QuizException ex)
+            {
+                MessageBox.Show(ex.Message);
             }
 
             //verificam daca raspunsul este corect(apelam logica din DLL)
-            bool eCorect = _quizManager.CheckAnswer(raspunsSelectat, intrebare.CorrectOption);
-
-            if(!eCorect)
-            {
-                MessageBox.Show($"Raspuns gresit! Varianta corecta era: {intrebare.CorrectOption}");
-            }
-
-            //trecem la urmatoarea intrebare
-            _quizManager.NextQuestion();
-
-            //reimprospatare ecran
-            AfiseazaIntrebareaCurenta();
+            
         }
     }
 }

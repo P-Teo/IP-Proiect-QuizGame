@@ -59,6 +59,7 @@ namespace QuizGame.AccessData
         //de rescris
         public void InsertQuestion(Question q)
         {
+            
             try
             {
                 using (var connection = new SQLiteConnection(ConnectionString))

@@ -1,8 +1,0 @@
-D:\An3-sem2\IP\Proiect\QuizGame.AccessData\obj\Debug\QuizGame.AccessData.csproj.AssemblyReference.cache
-D:\An3-sem2\IP\Proiect\QuizGame.AccessData\obj\Debug\QuizGame.AccessData.csproj.CoreCompileInputs.cache
-D:\An3-sem2\IP\Proiect\QuizGame.AccessData\bin\Debug\QuizGame.AccessData.dll
-D:\An3-sem2\IP\Proiect\QuizGame.AccessData\bin\Debug\QuizGame.AccessData.pdb
-D:\An3-sem2\IP\Proiect\QuizGame.AccessData\bin\Debug\System.Data.SQLite.dll
-D:\An3-sem2\IP\Proiect\QuizGame.AccessData\obj\Debug\QuizGame.F4EC7BAB.Up2Date
-D:\An3-sem2\IP\Proiect\QuizGame.AccessData\obj\Debug\QuizGame.AccessData.dll
-D:\An3-sem2\IP\Proiect\QuizGame.AccessData\obj\Debug\QuizGame.AccessData.pdb
