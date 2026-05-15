@@ -99,7 +99,7 @@ namespace QuizGame
                 string raspunsSelectat = "";
                 raspunsSelectat = GetRaspunsSelectat();
                 bool eCorect = _quizManager.CheckAnswer(raspunsSelectat, intrebare.CorrectOption);
-
+                //verificam daca raspunsul este corect(apelam logica din DLL)
                 if(!eCorect)
                 {
                     MessageBox.Show($"Raspuns gresit! Varianta corecta era: {intrebare.CorrectOption}");
@@ -116,8 +116,10 @@ namespace QuizGame
                 MessageBox.Show(ex.Message);
             }
 
-            //verificam daca raspunsul este corect(apelam logica din DLL)
+            
             
         }
+
+        
     }
 }

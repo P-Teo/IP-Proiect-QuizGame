@@ -67,5 +67,11 @@ namespace QuizGame
         {
             Application.Exit();
         }
+
+        private void buttonHelp_Click(object sender, EventArgs e)
+        {
+            
+            System.Diagnostics.Process.Start("QuizGame.chm");
+        }
     }
 }
