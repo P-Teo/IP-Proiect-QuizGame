@@ -8,7 +8,7 @@ using System.IO;
 
 namespace QuizGame.AccessData
 {
-    public class DataBaseInitializer
+    public class DataBaseInitializer 
     {
         //Numele fisierului bazei de date
         //Se va crea in folderul bin/Debug al proiectului
