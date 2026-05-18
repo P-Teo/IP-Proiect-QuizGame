@@ -8,21 +8,39 @@ using System.Threading.Tasks;
 
 namespace QuizGame.Logic
 {
+    /// <summary>
+    /// Clasa principala care gestioneaza logica jocului de quiz.
+    /// Coordoneaza intrebarile, scorul si interactiunea cu baza de date prin strategia aleasa.
+    /// </summary>
     public class QuizManager
     {
-        private IQuizStrategy _strategy;
-        private int _score;
-        private int _currentQuestionIndex;
-        private List<Question> _question;
-        private DataBaseInitializer _dbInit = new DataBaseInitializer();
+        private IQuizStrategy _strategy;   // Strategia curenta de dificultate, determina filtrarea intrebarilor si calculul scorului
+        private int _score;  // Scorul acumulat de utilizator pe parcursul quiz-ului
+        private int _currentQuestionIndex; // Indexul intrebarii curente din lista de intrebari filtrate
+        private List<Question> _question; // Lista de intrebari filtrate dupa strategia aleasa
+        private DataBaseInitializer _dbInit = new DataBaseInitializer(); // Obiectul responsabil cu accesul la baza de date
+        public int Score => _score;         // Proprietate publica pentru accesarea scorului din exterior (doar citire)
 
-        public int Score => _score;
+
+        /// <summary>
+        /// Constructorul care initializeaza managerul doar cu o strategie.
+        /// Intrebarile vor fi incarcate ulterior prin apelul metodei SetupGame.
+        /// </summary>
+        /// <param name="strategy">Strategia de dificultate aleasa de utilizator</param>
+        /// <exception cref="ArgumentNullException">Aruncata daca strategia furnizata este null</exception>
         public QuizManager(IQuizStrategy strategy)
         {
             if (strategy == null) throw new ArgumentNullException(nameof(strategy));
             _strategy = strategy;
         }
 
+        /// <summary>
+        /// Constructorul care initializeaza managerul cu o strategie si o lista de intrebari predefinita.
+        /// Folosit in principal pentru testare, evitand dependenta de baza de date.
+        /// </summary>
+        /// <param name="strategy">Strategia de dificultate aleasa de utilizator</param>
+        /// <param name="questions">Lista de intrebari furnizata extern</param>
+        /// <exception cref="ArgumentNullException">Aruncata daca strategia sau lista de intrebari este null</exception>
         public QuizManager(IQuizStrategy strategy, List<Question> questions)
         {
             if (strategy == null) throw new ArgumentNullException(nameof(strategy));
@@ -32,14 +50,20 @@ namespace QuizGame.Logic
             _score = 0;
             _currentQuestionIndex = 0;
         }
+
+        /// <summary>
+        /// Pregateste jocul: initializeaza baza de date, incarca intrebarile si,
+        /// daca baza de date este goala, insereaza setul implicit de intrebari pentru toate dificultatiле.
+        /// </summary>
         public void SetupGame()
         {
             //Interfata cere logicii initializarea, logica cere AccessData
             _dbInit.InitializeDatabase();
-            //extragem intrebarile
+
+            // Extragem intrebarile filtrate dupa strategia curenta
             _question = _strategy.FilterQuestions(_dbInit.GetAllQuestions());
 
-            //daca lista este goala, adaugam intrebarile
+            // Daca lista este goala, populam baza de date cu intrebarile implicite
             if (_question.Count == 0)
             {
                 // ===== UȘOR =====
@@ -107,12 +131,22 @@ namespace QuizGame.Logic
 
                 _dbInit.InsertQuestion(new Question { QuestionText = "Ce particulă are sarcină electrică negativă?", OptionA = "Proton", OptionB = "Neutron", OptionC = "Electron", OptionD = "Pozitron", CorrectOption = "Electron", DifficultyLevel = "Greu" });
 
+
+                // Dupa inserare, reincarcam intrebarile filtrate pentru dificultatea curenta
                 _question = _dbInit.GetAllQuestions();
             }
             _score = 0;
             _currentQuestionIndex = 0;
         }
 
+        /// <summary>
+        /// Verifica daca raspunsul selectat de utilizator este corect.
+        /// Daca raspunsul este corect, actualizeaza scorul prin strategia curenta.
+        /// </summary>
+        /// <param name="selectedOption">Raspunsul ales de utilizator</param>
+        /// <param name="correctOption">Raspunsul corect al intrebarii</param>
+        /// <returns>True daca raspunsul este corect, False in caz contrar</returns>
+        /// <exception cref="ArgumentNullException">Aruncata daca oricare dintre parametri este null</exception>
         public bool CheckAnswer(string selectedOption, string correctOption)
         {
             if (selectedOption == null) throw new ArgumentNullException(nameof(selectedOption));
@@ -120,26 +154,35 @@ namespace QuizGame.Logic
 
             if (selectedOption == correctOption)
             {
+                // Delegam calculul scorului strategiei, deoarece punctajul difera per dificultate
                 _score = _strategy.CalculateScore(_score);
                 return true;
             }
             return false;
         }
 
+        /// <summary>
+        /// Returneaza intrebarea curenta din lista, sau null daca nu mai exista intrebari.
+        /// </summary>
+        /// <returns>Obiectul Question curent, sau null daca quiz-ul s-a incheiat</returns>
         public Question GetCurrentQuestion()
         {
             if (_question != null && _currentQuestionIndex < _question.Count)
             {
                 return _question[_currentQuestionIndex];
             }
-            return null; // Nu mai sunt întrebari
+
+            // Returnam null pentru a semnala formularului ca quiz-ul s-a incheiat
+            return null; 
         }
 
+        /// <summary>
+        /// Avanseaza la urmatoarea intrebare din lista.
+        /// </summary>
         public void NextQuestion()
         {
             _currentQuestionIndex++;
         }
-
         
     }
 }

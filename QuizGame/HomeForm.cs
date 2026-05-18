@@ -11,27 +11,43 @@ using System.Windows.Forms;
 
 namespace QuizGame
 {
+    /// <summary>
+    /// Formularul principal al aplicatiei (pagina de start).
+    /// Permite utilizatorului sa aleaga dificultatea quiz-ului si sa acceseze sectiunile aplicatiei.
+    /// </summary>
     public partial class HomeForm : Form
     {
+        /// <summary>
+        /// Constructorul formularului principal (pagina de start).
+        /// Initializeaza interfata si populeaza lista de dificultati disponibile.
+        /// </summary>
         public HomeForm()
         {
             InitializeComponent();
+            // Inchidem aplicatia complet daca utilizatorul inchide fereastra principala
             this.FormClosed += (s, e) => Application.Exit();
+
+            // Adaugam nivelurile de dificultate disponibile in lista derulanta
             comboBoxDifficulty.Items.Add("Usor");
             comboBoxDifficulty.Items.Add("Mediu");
             comboBoxDifficulty.Items.Add("Greu");
-
             comboBoxDifficulty.SelectedIndex = 0;
-
             
         }
 
+        /// <summary>
+        //// Gestioneaza apasarea butonului de start.
+        /// Instantiaza strategia corespunzatoare dificultatii alese si deschide formularul de quiz.
+        /// </summary>
+        /// <param name="sender">Sursa evenimentului</param>
+        /// <param name="e">Argumentele evenimentului</param>
         private void buttonStart_Click(object sender, EventArgs e)
         {
             IQuizStrategy strategy;
 
             string selectedDifficulty = comboBoxDifficulty.SelectedItem.ToString();
 
+            // Selectam strategia de intrebari in functie de dificultatea aleasa
             switch (selectedDifficulty)
             {
                 case "Usor":
@@ -58,16 +74,34 @@ namespace QuizGame
             this.Hide();
         }
 
+        /// <summary>
+        /// Gestioneaza apasarea butonului „Despre".
+        /// Afiseaza un mesaj scurt cu informatii despre aplicatie.
+        /// </summary>
+        /// <param name="sender">Sursa evenimentului</param>
+        /// <param name="e">Argumentele evenimentului</param>
         private void buttonAbout_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Aplicație tip Quiz.");
         }
 
+        /// <summary>
+        /// Gestioneaza apasarea butonului de iesire.
+        /// Inchide complet aplicatia.
+        /// </summary>
+        /// <param name="sender">Sursa evenimentului</param>
+        /// <param name="e">Argumentele evenimentului</param>
         private void buttonExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
+        /// <summary>
+        /// Gestioneaza apasarea butonului de ajutor.
+        /// Deschide fisierul de documentatie CHM al aplicatiei.
+        /// </summary>
+        /// <param name="sender">Sursa evenimentului</param>
+        /// <param name="e">Argumentele evenimentului</param>
         private void buttonHelp_Click(object sender, EventArgs e)
         {
             

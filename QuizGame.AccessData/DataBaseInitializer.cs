@@ -8,18 +8,26 @@ using System.IO;
 
 namespace QuizGame.AccessData
 {
+    /// <summary>
+    /// Clasa responsabila cu initializarea si gestionarea bazei de date SQLite.
+    /// Asigura crearea tabelelor necesare si operatiile CRUD pentru intrebari.
+    /// </summary>
     public class DataBaseInitializer 
     {
-        //Numele fisierului bazei de date
-        //Se va crea in folderul bin/Debug al proiectului
-        private const string DatabaseFileName = "quizDatabase.sqlite";
-        private static readonly string ConnectionString = $"Data Source={DatabaseFileName};Version=3;";
+        
+        private const string DatabaseFileName = "quizDatabase.sqlite"; // Numele fisierului bazei de date; se va crea in folderul bin/Debug al proiectului
+        private static readonly string ConnectionString = $"Data Source={DatabaseFileName};Version=3;";  // String-ul de conectare construit pe baza numelui fisierului bazei de date
 
-        //Metoda care va fi apelata la pornirea programului
+        /// <summary>
+        /// Initializeaza baza de date la pornirea aplicatiei.
+        /// Daca fisierul nu exista, il creeaza, apoi genereaza tabelele necesare.
+        /// </summary>
+        /// <exception cref="Exception">Aruncata cand fisierul bazei de date nu poate fi creat sau tabelele nu pot fi initializate</exception>
         public void InitializeDatabase()
         {
             try
             {
+                // Cream fisierul doar daca nu exista deja, pentru a nu suprascrie datele existente
                 if (!File.Exists(DatabaseFileName))
                 {
                     SQLiteConnection.CreateFile(DatabaseFileName);
@@ -32,13 +40,18 @@ namespace QuizGame.AccessData
                 throw new Exception($"Eroare la inițializarea bazei de date: {ex.Message}");
             }
         }
+
+        /// <summary>
+        /// Creeaza tabelele necesare in baza de date daca acestea nu exista deja.
+        /// Tabelul Questions stocheaza textul intrebarii, cele 4 variante, raspunsul corect si dificultatea.
+        /// </summary>
         private void CreateTables()
         {
             using (var connection = new SQLiteConnection(ConnectionString))
             {
                 connection.Open();
 
-                //Cream tabelul: text, 4 variante, 1 corecta
+                // Cream tabelul cu structura: text intrebare, 4 variante de raspuns, varianta corecta si nivelul de dificultate
                 string createQuestionsTableQuery = @"
                     CREATE TABLE IF NOT EXISTS Questions (
                         Id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -56,7 +69,15 @@ namespace QuizGame.AccessData
                 }
             }
         }
-        //de rescris
+
+
+        /// <summary>
+        /// Insereaza o intrebare noua in baza de date.
+        /// Foloseste parametri pentru a preveni atacurile de tip SQL Injection.
+        /// </summary>
+        /// <param name="q">Obiectul Question care contine datele intrebarii de inserat</param>
+        /// <exception cref="SQLiteException">Aruncata cand interogarea SQL de inserare esueaza</exception>
+        /// <exception cref="Exception">Aruncata cand apare o eroare generala la inserarea intrebarii</exception>
         public void InsertQuestion(Question q)
         {
             
@@ -73,6 +94,7 @@ namespace QuizGame.AccessData
 
                     using (var command = new SQLiteCommand(insertQuery, connection))
                     {
+                        // Legam fiecare parametru la proprietatea corespunzatoare din obiectul intrebarii
                         command.Parameters.AddWithValue("@text", q.QuestionText);
                         command.Parameters.AddWithValue("@a", q.OptionA);
                         command.Parameters.AddWithValue("@b", q.OptionB);
@@ -94,7 +116,13 @@ namespace QuizGame.AccessData
                 throw new Exception($"Eroare generală: {ex.Message}");
             }
         }
-        //de rescris asta
+
+        /// <summary>
+        /// Returneaza toate intrebarile existente in baza de date, indiferent de dificultate.
+        /// </summary>
+        /// <returns>Lista completa de obiecte Question din baza de date</returns>
+        /// <exception cref="SQLiteException">Aruncata cand interogarea SQL de selectie esueaza</exception>
+        /// <exception cref="Exception">Aruncata cand apare o eroare generala la extragerea intrebarilor</exception>
         public List<Question> GetAllQuestions()
         {
             try
@@ -110,6 +138,7 @@ namespace QuizGame.AccessData
                     using (var command = new SQLiteCommand(selectQuery, connection))
                     using (var reader = command.ExecuteReader())
                     {
+                        // Parcurgem fiecare rand returnat si construim obiectul corespunzator
                         while (reader.Read())
                         {
                             questions.Add(new Question
@@ -139,18 +168,27 @@ namespace QuizGame.AccessData
             }
         }
 
+        /// <summary>
+        /// Returneaza intrebarile filtrate dupa nivelul de dificultate specificat.
+        /// Folosita de strategii pentru a incarca doar intrebarile relevante dificultatii alese.
+        /// </summary>
+        /// <param name="difficulty">Nivelul de dificultate dupa care se filtreaza (ex: "Usor", "Mediu", "Greu")</param>
+        /// <returns>Lista de obiecte Question corespunzatoare dificultatii specificate</returns>
         public List<Question> GetQuestionsByDifficulty(string difficulty)
         {
             var questions = new List<Question>();
             using (var connection = new SQLiteConnection(ConnectionString))
             {
                 connection.Open();
+
+                // Filtram intrebarile prin parametru pentru a evita SQL Injection
                 string selectQuery = "SELECT * FROM Questions WHERE DifficultyLevel = @diff";
                 using (var command = new SQLiteCommand(selectQuery, connection))
                 {
                     command.Parameters.AddWithValue("@diff", difficulty);
                     using (var reader = command.ExecuteReader())
                     {
+                        // Construim obiectul Question pentru fiecare rand din rezultat
                         while (reader.Read())
                         {
                             questions.Add(new Question
