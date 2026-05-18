@@ -1,4 +1,25 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        DataBaseInitializer.cs                                   *
+ *  Copyright:   (c) 2026, Roxana-Ionela Barbaliu, Teodora Papă           *
+ *  E-mail:      roxana-ionela.barbaliu@student.tuiasi.ro                 * 
+ *               teodora.papa@student.tuiasi.ro                           *
+ *  Website:     https://github.com/P-Teo/IP-Proiect-QuizGame             *
+ *  Description: Clasa responsabila cu initializarea si gestionarea       *
+ *               bazei de date SQLite. Asigura crearea tabelelor          *
+ *               necesare si operatiile CRUD pentru intrebari.            *
+ *                                                                        *
+ *  This program is free software; you can redistribute it and/or modify  *
+ *  it under the terms of the GNU General Public License as published by  *
+ *  the Free Software Foundation. This program is distributed in the      *
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *
+ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *
+ *  PURPOSE. See the GNU General Public License for more details.         *
+ *                                                                        *
+ **************************************************************************/
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

@@ -1,4 +1,24 @@
-﻿using QuizGame.AccessData;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        QuizManager.cs                                           *
+ *  Copyright:   (c) 2026, Maria-Ecaterina Condurache                     *
+ *  E-mail:      maria-ecaterina.condurache@student.tuiasi.ro             *
+ *  Website:     https://github.com/P-Teo/IP-Proiect-QuizGame             *
+ *  Description: Clasa principala care gestioneaza logica jocului.        *
+ *               Coordoneaza intrebarile, scorul si interactiunea         *
+ *               cu baza de date prin strategia aleasa.                   *
+ *                                                                        *
+ *  This program is free software; you can redistribute it and/or modify  *
+ *  it under the terms of the GNU General Public License as published by  *
+ *  the Free Software Foundation. This program is distributed in the      *
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *
+ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *
+ *  PURPOSE. See the GNU General Public License for more details.         *
+ *                                                                        *
+ **************************************************************************/
+
+
+using QuizGame.AccessData;
 using QuizGame.Logic.Strategies;
 using System;
 using System.Collections.Generic;

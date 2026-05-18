@@ -1,4 +1,24 @@
-﻿using QuizGame.Logic.Strategies;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        HomeForm.cs                                               *
+ *  Copyright:   (c) 2026, Roxana-Ionela Barbaliu                         *
+ *  E-mail:      roxana-ionela.barbaliu@student.tuiasi.ro                 *
+ *  Website:     https://github.com/P-Teo/IP-Proiect-QuizGame             *
+ *  Description:  Formularul principal al aplicatiei (pagina de start).   *
+ *               Permite utilizatorului sa aleaga dificultatea            *
+ *               quiz-ului si sa acceseze sectiunile aplicatiei.          *
+ *                                                                        *
+ *  This program is free software; you can redistribute it and/or modify  *
+ *  it under the terms of the GNU General Public License as published by  *
+ *  the Free Software Foundation. This program is distributed in the      *
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *
+ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *
+ *  PURPOSE. See the GNU General Public License for more details.         *
+ *                                                                        *
+ **************************************************************************/
+
+
+using QuizGame.Logic.Strategies;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
