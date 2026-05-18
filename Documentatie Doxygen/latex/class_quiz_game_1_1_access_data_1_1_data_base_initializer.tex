@@ -1,0 +1,106 @@
+\doxysection{Quiz\+Game.\+Access\+Data.\+Data\+Base\+Initializer Class Reference}
+\hypertarget{class_quiz_game_1_1_access_data_1_1_data_base_initializer}{}\label{class_quiz_game_1_1_access_data_1_1_data_base_initializer}\index{QuizGame.AccessData.DataBaseInitializer@{QuizGame.AccessData.DataBaseInitializer}}
+
+
+Clasa responsabila cu initializarea si gestionarea bazei de date SQLite. Asigura crearea tabelelor necesare si operatiile CRUD pentru intrebari.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_data_base_initializer_a6ab1862bb7a6588dbaac9d7bfb70ad3f}{Initialize\+Database}} ()
+\begin{DoxyCompactList}\small\item\em Initializeaza baza de date la pornirea aplicatiei. Daca fisierul nu exista, il creeaza, apoi genereaza tabelele necesare. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_data_base_initializer_a9b69f245baaa1bac73eb76315debb147}{Insert\+Question}} (\doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} q)
+\begin{DoxyCompactList}\small\item\em Insereaza o intrebare noua in baza de date. Foloseste parametri pentru a preveni atacurile de tip SQL Injection. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_data_base_initializer_a1f734d8c8ed05c39719a4dd0f78b45f8}{Get\+All\+Questions}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza toate intrebarile existente in baza de date, indiferent de dificultate. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_data_base_initializer_a5d43192cb835eeecc118d82a2382dad8}{Get\+Questions\+By\+Difficulty}} (string difficulty)
+\begin{DoxyCompactList}\small\item\em Returneaza intrebarile filtrate dupa nivelul de dificultate specificat. Folosita de strategii pentru a incarca doar intrebarile relevante dificultatii alese. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasa responsabila cu initializarea si gestionarea bazei de date SQLite. Asigura crearea tabelelor necesare si operatiile CRUD pentru intrebari. 
+
+\label{doc-func-members}
+\Hypertarget{class_quiz_game_1_1_access_data_1_1_data_base_initializer_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_quiz_game_1_1_access_data_1_1_data_base_initializer_a1f734d8c8ed05c39719a4dd0f78b45f8}\index{QuizGame.AccessData.DataBaseInitializer@{QuizGame.AccessData.DataBaseInitializer}!GetAllQuestions@{GetAllQuestions}}
+\index{GetAllQuestions@{GetAllQuestions}!QuizGame.AccessData.DataBaseInitializer@{QuizGame.AccessData.DataBaseInitializer}}
+\doxysubsubsection{\texorpdfstring{GetAllQuestions()}{GetAllQuestions()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_access_data_1_1_data_base_initializer_a1f734d8c8ed05c39719a4dd0f78b45f8} 
+List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$ Quiz\+Game.\+Access\+Data.\+Data\+Base\+Initializer.\+Get\+All\+Questions (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Returneaza toate intrebarile existente in baza de date, indiferent de dificultate. 
+
+\begin{DoxyReturn}{Returns}
+Lista completa de obiecte \doxylink{class_quiz_game_1_1_access_data_1_1_question}{Question} din baza de date
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em SQLite\+Exception} & Aruncata cand interogarea SQL de selectie esueaza\\
+\hline
+{\em Exception} & Aruncata cand apare o eroare generala la extragerea intrebarilor\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_quiz_game_1_1_access_data_1_1_data_base_initializer_a5d43192cb835eeecc118d82a2382dad8}\index{QuizGame.AccessData.DataBaseInitializer@{QuizGame.AccessData.DataBaseInitializer}!GetQuestionsByDifficulty@{GetQuestionsByDifficulty}}
+\index{GetQuestionsByDifficulty@{GetQuestionsByDifficulty}!QuizGame.AccessData.DataBaseInitializer@{QuizGame.AccessData.DataBaseInitializer}}
+\doxysubsubsection{\texorpdfstring{GetQuestionsByDifficulty()}{GetQuestionsByDifficulty()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_access_data_1_1_data_base_initializer_a5d43192cb835eeecc118d82a2382dad8} 
+List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$ Quiz\+Game.\+Access\+Data.\+Data\+Base\+Initializer.\+Get\+Questions\+By\+Difficulty (\begin{DoxyParamCaption}\item[{string}]{difficulty}{}\end{DoxyParamCaption})}
+
+
+
+Returneaza intrebarile filtrate dupa nivelul de dificultate specificat. Folosita de strategii pentru a incarca doar intrebarile relevante dificultatii alese. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em difficulty} & Nivelul de dificultate dupa care se filtreaza (ex:\+ "{}\+Usor"{}, "{}\+Mediu"{}, "{}\+Greu"{})\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista de obiecte \doxylink{class_quiz_game_1_1_access_data_1_1_question}{Question} corespunzatoare dificultatii specificate
+\end{DoxyReturn}
+\Hypertarget{class_quiz_game_1_1_access_data_1_1_data_base_initializer_a6ab1862bb7a6588dbaac9d7bfb70ad3f}\index{QuizGame.AccessData.DataBaseInitializer@{QuizGame.AccessData.DataBaseInitializer}!InitializeDatabase@{InitializeDatabase}}
+\index{InitializeDatabase@{InitializeDatabase}!QuizGame.AccessData.DataBaseInitializer@{QuizGame.AccessData.DataBaseInitializer}}
+\doxysubsubsection{\texorpdfstring{InitializeDatabase()}{InitializeDatabase()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_access_data_1_1_data_base_initializer_a6ab1862bb7a6588dbaac9d7bfb70ad3f} 
+void Quiz\+Game.\+Access\+Data.\+Data\+Base\+Initializer.\+Initialize\+Database (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Initializeaza baza de date la pornirea aplicatiei. Daca fisierul nu exista, il creeaza, apoi genereaza tabelele necesare. 
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Aruncata cand fisierul bazei de date nu poate fi creat sau tabelele nu pot fi initializate\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_quiz_game_1_1_access_data_1_1_data_base_initializer_a9b69f245baaa1bac73eb76315debb147}\index{QuizGame.AccessData.DataBaseInitializer@{QuizGame.AccessData.DataBaseInitializer}!InsertQuestion@{InsertQuestion}}
+\index{InsertQuestion@{InsertQuestion}!QuizGame.AccessData.DataBaseInitializer@{QuizGame.AccessData.DataBaseInitializer}}
+\doxysubsubsection{\texorpdfstring{InsertQuestion()}{InsertQuestion()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_access_data_1_1_data_base_initializer_a9b69f245baaa1bac73eb76315debb147} 
+void Quiz\+Game.\+Access\+Data.\+Data\+Base\+Initializer.\+Insert\+Question (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}}}]{q}{}\end{DoxyParamCaption})}
+
+
+
+Insereaza o intrebare noua in baza de date. Foloseste parametri pentru a preveni atacurile de tip SQL Injection. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em q} & Obiectul \doxylink{class_quiz_game_1_1_access_data_1_1_question}{Question} care contine datele intrebarii de inserat\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em SQLite\+Exception} & Aruncata cand interogarea SQL de inserare esueaza\\
+\hline
+{\em Exception} & Aruncata cand apare o eroare generala la inserarea intrebarii\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+C:\+/\+\+Users/\+new\+\_\+l/\+\+One\+Drive/\+\+Documents/\+aici/\+\+IP-\/\+Proiect-\/\+Quiz\+Game/\+\+Quiz\+Game.\+Access\+Data/\+\doxymbox{\hyperlink{_data_base_initializer_8cs}{Data\+Base\+Initializer.\+cs}}\end{DoxyCompactItemize}

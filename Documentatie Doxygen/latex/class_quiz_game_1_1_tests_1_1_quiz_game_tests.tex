@@ -1,0 +1,563 @@
+\doxysection{Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests Class Reference}
+\hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests}{}\label{class_quiz_game_1_1_tests_1_1_quiz_game_tests}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+
+
+Clasa de teste unitare pentru logica aplicatiei \doxylink{namespace_quiz_game}{Quiz\+Game}. Acopera comportamentul metodelor Check\+Answer, Get\+Current\+Question, Next\+Question, al strategiilor de dificultate si al modelului \doxylink{class_quiz_game_1_1_access_data_1_1_question}{Question}.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a513a57ab6746f5d2d0c40f8c75c74090}{Check\+Answer\+\_\+\+Raspuns\+Corect\+\_\+\+Returneaza\+True}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca un raspuns corect returneaza true. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a2bf9cb2b6a652b1696942af670218c8c}{Check\+Answer\+\_\+\+Raspuns\+Gresit\+\_\+\+Returneaza\+False}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca un raspuns gresit returneaza false. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ae579c637871f320b4195b9b42f491302}{Check\+Answer\+\_\+\+String\+Gol\+\_\+\+Returneaza\+False}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca un string gol ca raspuns selectat returneaza false. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ab454574931f1fcd9d6f07fc1cac419e5}{Check\+Answer\+\_\+\+Ambele\+Goale\+\_\+\+Returneaza\+True}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca doua stringuri goale sunt considerate egale si returneaza true. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a56504257e741e9f2e3c3445c64083125}{Check\+Answer\+\_\+\+Case\+Sensitive\+\_\+\+Returneaza\+False}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca verificarea raspunsului este case-\/sensitive. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ae1bc9a8fd76dfcfe9d9558e0de91df98}{Check\+Answer\+\_\+\+Spatiu\+Extra\+\_\+\+Returneaza\+False}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca un spatiu suplimentar face raspunsul sa fie considerat gresit. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aefb9603374a8df71a9523a9e7c0e33fb}{Check\+Answer\+\_\+\+Numar\+Ca\+String\+\_\+\+Corect\+\_\+\+Returneaza\+True}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca un numar reprezentat ca string este comparat corect. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a40927a5d85da43bfcdd79dca01e9d198}{Check\+Answer\+\_\+\+Corect\+\_\+\+Easy\+Strategy\+\_\+\+Scor\+Creste1}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca un raspuns corect cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} creste scorul cu 1. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ad3e931753b6c2198857f5e5db6df9e7f}{Check\+Answer\+\_\+\+Gresit\+\_\+\+Easy\+Strategy\+\_\+\+Scor\+Ramane0}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca un raspuns gresit cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} nu modifica scorul. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ab362b1826551ada4fedfb2ba0540b0a2}{Check\+Answer\+\_\+\+Trei\+Corecte\+\_\+\+Easy\+Strategy\+\_\+\+Scor\+Este3}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca trei raspunsuri corecte cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} produc scorul 3. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_abec8044d15326d759ac46bf26d7ea7d8}{Check\+Answer\+\_\+\+Un\+Corect\+Un\+Gresit\+\_\+\+Easy\+Strategy\+\_\+\+Scor\+Este1}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca un raspuns corect si unul gresit cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} produc scorul 1. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_acb09e2ddf12fc860e62b7d20a1c03cb0}{Check\+Answer\+\_\+\+Corect\+\_\+\+Medium\+Strategy\+\_\+\+Scor\+Creste2}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca un raspuns corect cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy}{Medium\+Strategy} creste scorul cu 2. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a70eb0021310346b6002ab71d71040dc0}{Check\+Answer\+\_\+\+Trei\+Corecte\+\_\+\+Medium\+Strategy\+\_\+\+Scor\+Este6}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca trei raspunsuri corecte cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy}{Medium\+Strategy} produc scorul 6. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a96e94ff2f1f12d0fd1d10e980d8ec1ef}{Check\+Answer\+\_\+\+Corect\+\_\+\+Hard\+Strategy\+\_\+\+Scor\+Creste3}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca un raspuns corect cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} creste scorul cu 3. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a1d587da5aedfb4a6e7281894db9c6ca6}{Check\+Answer\+\_\+\+Gresit\+\_\+\+Hard\+Strategy\+\_\+\+Scor\+Ramane0}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca un raspuns gresit cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} nu modifica scorul. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a961f0de5dd2260c45bc1fe32e5388659}{Check\+Answer\+\_\+\+Doi\+Corecti\+\_\+\+Hard\+Strategy\+\_\+\+Scor\+Este6}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca doua raspunsuri corecte cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} produc scorul 6. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ab6a3240fe966e9dff5f181a5cb0f4416}{Score\+\_\+\+Initial\+\_\+\+Este\+Zero}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca scorul initial al unui manager nou este 0. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a025f020ea309c5674c3dac7d5849d9e8}{Score\+\_\+\+Dupa\+Setup\+Game\+\_\+\+Este\+Zero}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca scorul dupa initializarea cu lista de intrebari este 0. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ab57ec26a884207680f265ea615e716eb}{Score\+\_\+\+Dupa\+Setup\+Game\+Din\+Nou\+\_\+\+Se\+Reseteaza}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca un manager nou are scorul resetat la 0, indiferent de sesiunea anterioara. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a154eaa6caaf1ab8fc182fe18fa50c016}{Get\+Current\+Question\+\_\+\+Dupa\+Setup\+Game\+\_\+\+Nu\+Este\+Null}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca prima intrebare nu este null dupa initializare cu lista de intrebari. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_afa38a8c9eb27495597fe6320b5b1e9a7}{Get\+Current\+Question\+\_\+\+Fara\+Setup\+Game\+\_\+\+Este\+Null}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca fara initializarea listei de intrebari, intrebarea curenta este null. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aae2f13a2917e128f1bfc79d3c36b276a}{Get\+Current\+Question\+\_\+\+Are4\+Variante\+Nenule}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca intrebarea curenta are toate cele 4 variante de raspuns completate. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a8581d300f1161d92b087e76c6f227131}{Get\+Current\+Question\+\_\+\+Raspuns\+Corect\+Este\+Unadin\+Variante}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca raspunsul corect al intrebarii curente este una dintre cele 4 variante. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_afb975f2c4b2094221ad7841f29309e42}{Get\+Current\+Question\+\_\+\+Easy\+Strategy\+\_\+\+Returneaza\+Doar\+Usor}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} returneaza doar intrebari cu dificultatea Usor. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aa9553c8c0f6e106dbf6023edba335ffd}{Get\+Current\+Question\+\_\+\+Medium\+Strategy\+\_\+\+Returneaza\+Doar\+Mediu}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy}{Medium\+Strategy} returneaza doar intrebari cu dificultatea Mediu. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a61a9b160a6ee4620ee2f3827ca5807c5}{Get\+Current\+Question\+\_\+\+Hard\+Strategy\+\_\+\+Returneaza\+Doar\+Greu}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} returneaza doar intrebari cu dificultatea Greu. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ae4e04e2db67e005a13987b8a4e98d046}{Next\+Question\+\_\+\+Schimba\+Intrebarea\+Curenta}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca Next\+Question schimba efectiv intrebarea curenta. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a761388f7192efee10ad8a5335e74e69a}{Next\+Question\+\_\+\+Dupa\+Toate\+\_\+\+Returneaza\+Null}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca dupa parcurgerea tuturor intrebarilor, Get\+Current\+Question returneaza null. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a15e0cdc97d051fbf968428f0a4d56ac1}{Next\+Question\+\_\+\+Easy\+Strategy\+\_\+\+Toate\+Intrebarile\+\_\+\+Sunt\+Usor}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca toate intrebarile parcurse cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} au dificultatea Usor. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a0456aabc9474feb1e2e35d5299859417}{Next\+Question\+\_\+\+Hard\+Strategy\+\_\+\+Toate\+Intrebarile\+\_\+\+Sunt\+Greu}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca toate intrebarile parcurse cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} au dificultatea Greu. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_af2cb7de1602130359f7e1e0d22b3aa5d}{Easy\+Strategy\+\_\+\+Filter\+Questions\+\_\+\+Returneaza\+Doar\+Usor}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} filtreaza corect si returneaza doar intrebari Usor. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a675f5a0407a18c0d6b2a97263b1a1859}{Medium\+Strategy\+\_\+\+Filter\+Questions\+\_\+\+Returneaza\+Doar\+Mediu}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy}{Medium\+Strategy} filtreaza corect si returneaza doar intrebari Mediu. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ad9e8727e85147b5e11fdbd02401d220e}{Hard\+Strategy\+\_\+\+Filter\+Questions\+\_\+\+Returneaza\+Doar\+Greu}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} filtreaza corect si returneaza doar intrebari Greu. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a389e36451e0f05febc1ee32a61f584d3}{Easy\+Strategy\+\_\+\+Filter\+Questions\+\_\+\+Lista\+Goala\+\_\+\+Returneaza\+Gol}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca filtrarea unei liste goale returneaza o lista goala. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a1a58faa56ded9a777b862d5dfc7356a4}{Filter\+Questions\+\_\+\+Numar\+Corect\+\_\+\+Usor}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca numarul de intrebari Usor filtrate din Sample\+Questions este exact 2. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aad58c1bba19958e3a4250e4d2bc87950}{Easy\+Strategy\+\_\+\+Calculate\+Score\+\_\+\+De\+La0\+\_\+\+Returneaza1}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} calculeaza corect scorul pornind de la 0. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_af0abd348a326f68bd36f51179c51e949}{Medium\+Strategy\+\_\+\+Calculate\+Score\+\_\+\+De\+La0\+\_\+\+Returneaza2}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy}{Medium\+Strategy} calculeaza corect scorul pornind de la 0. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a6ce632d31cb9f606ade267e9bb7be1f6}{Hard\+Strategy\+\_\+\+Calculate\+Score\+\_\+\+De\+La0\+\_\+\+Returneaza3}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} calculeaza corect scorul pornind de la 0. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aa29c0981f490c35e5bca67230b9259de}{Hard\+Strategy\+\_\+\+Calculate\+Score\+\_\+\+De\+La9\+\_\+\+Returneaza12}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} adauga corect 3 puncte la un scor existent. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a1857d722a33324b0108cbdb31c5283c4}{Question\+\_\+\+Proprietati\+Setate\+\_\+\+Se\+Stocheaza\+Corect}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca proprietatile unui obiect \doxylink{class_quiz_game_1_1_access_data_1_1_question}{Question} sunt stocate si returnate corect. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_af21dba12fe3be4323b64d7e9883f00e7}{Check\+Answer\+\_\+\+Selected\+Option\+Null\+\_\+\+Arunca\+Exceptie}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca o exceptie Argument\+Null\+Exception este aruncata cand raspunsul selectat este null. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ab732222a805b0b76b25778611747645f}{Check\+Answer\+\_\+\+Correct\+Option\+Null\+\_\+\+Arunca\+Exceptie}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca o exceptie Argument\+Null\+Exception este aruncata cand raspunsul corect este null. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a8c51c713306168fa02a8ad4348497e8f}{Quiz\+Manager\+\_\+\+Strategy\+Null\+\_\+\+Arunca\+Exceptie}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca o exceptie Argument\+Null\+Exception este aruncata cand strategia este null. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aa9c1dcea9e3dc3077871df7edc5871b7}{Quiz\+Manager\+\_\+\+Strategy\+Null\+Cu\+Lista\+\_\+\+Arunca\+Exceptie}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca o exceptie Argument\+Null\+Exception este aruncata cand strategia este null si se furnizeaza o lista. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_tests_1_1_quiz_game_tests_af54dbe03fa409b5101f5322605fdb3c3}{Quiz\+Manager\+\_\+\+Lista\+Null\+\_\+\+Arunca\+Exceptie}} ()
+\begin{DoxyCompactList}\small\item\em Verifica ca o exceptie Argument\+Null\+Exception este aruncata cand lista de intrebari este null. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasa de teste unitare pentru logica aplicatiei \doxylink{namespace_quiz_game}{Quiz\+Game}. Acopera comportamentul metodelor Check\+Answer, Get\+Current\+Question, Next\+Question, al strategiilor de dificultate si al modelului \doxylink{class_quiz_game_1_1_access_data_1_1_question}{Question}. 
+
+\label{doc-func-members}
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ab454574931f1fcd9d6f07fc1cac419e5}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_AmbeleGoale\_ReturneazaTrue@{CheckAnswer\_AmbeleGoale\_ReturneazaTrue}}
+\index{CheckAnswer\_AmbeleGoale\_ReturneazaTrue@{CheckAnswer\_AmbeleGoale\_ReturneazaTrue}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_AmbeleGoale\_ReturneazaTrue()}{CheckAnswer\_AmbeleGoale\_ReturneazaTrue()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ab454574931f1fcd9d6f07fc1cac419e5} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Ambele\+Goale\+\_\+\+Returneaza\+True (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca doua stringuri goale sunt considerate egale si returneaza true. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a56504257e741e9f2e3c3445c64083125}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_CaseSensitive\_ReturneazaFalse@{CheckAnswer\_CaseSensitive\_ReturneazaFalse}}
+\index{CheckAnswer\_CaseSensitive\_ReturneazaFalse@{CheckAnswer\_CaseSensitive\_ReturneazaFalse}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_CaseSensitive\_ReturneazaFalse()}{CheckAnswer\_CaseSensitive\_ReturneazaFalse()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a56504257e741e9f2e3c3445c64083125} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Case\+Sensitive\+\_\+\+Returneaza\+False (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca verificarea raspunsului este case-\/sensitive. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a40927a5d85da43bfcdd79dca01e9d198}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_Corect\_EasyStrategy\_ScorCreste1@{CheckAnswer\_Corect\_EasyStrategy\_ScorCreste1}}
+\index{CheckAnswer\_Corect\_EasyStrategy\_ScorCreste1@{CheckAnswer\_Corect\_EasyStrategy\_ScorCreste1}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_Corect\_EasyStrategy\_ScorCreste1()}{CheckAnswer\_Corect\_EasyStrategy\_ScorCreste1()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a40927a5d85da43bfcdd79dca01e9d198} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Corect\+\_\+\+Easy\+Strategy\+\_\+\+Scor\+Creste1 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca un raspuns corect cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} creste scorul cu 1. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a96e94ff2f1f12d0fd1d10e980d8ec1ef}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_Corect\_HardStrategy\_ScorCreste3@{CheckAnswer\_Corect\_HardStrategy\_ScorCreste3}}
+\index{CheckAnswer\_Corect\_HardStrategy\_ScorCreste3@{CheckAnswer\_Corect\_HardStrategy\_ScorCreste3}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_Corect\_HardStrategy\_ScorCreste3()}{CheckAnswer\_Corect\_HardStrategy\_ScorCreste3()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a96e94ff2f1f12d0fd1d10e980d8ec1ef} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Corect\+\_\+\+Hard\+Strategy\+\_\+\+Scor\+Creste3 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca un raspuns corect cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} creste scorul cu 3. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_acb09e2ddf12fc860e62b7d20a1c03cb0}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_Corect\_MediumStrategy\_ScorCreste2@{CheckAnswer\_Corect\_MediumStrategy\_ScorCreste2}}
+\index{CheckAnswer\_Corect\_MediumStrategy\_ScorCreste2@{CheckAnswer\_Corect\_MediumStrategy\_ScorCreste2}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_Corect\_MediumStrategy\_ScorCreste2()}{CheckAnswer\_Corect\_MediumStrategy\_ScorCreste2()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_acb09e2ddf12fc860e62b7d20a1c03cb0} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Corect\+\_\+\+Medium\+Strategy\+\_\+\+Scor\+Creste2 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca un raspuns corect cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy}{Medium\+Strategy} creste scorul cu 2. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ab732222a805b0b76b25778611747645f}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_CorrectOptionNull\_AruncaExceptie@{CheckAnswer\_CorrectOptionNull\_AruncaExceptie}}
+\index{CheckAnswer\_CorrectOptionNull\_AruncaExceptie@{CheckAnswer\_CorrectOptionNull\_AruncaExceptie}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_CorrectOptionNull\_AruncaExceptie()}{CheckAnswer\_CorrectOptionNull\_AruncaExceptie()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ab732222a805b0b76b25778611747645f} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Correct\+Option\+Null\+\_\+\+Arunca\+Exceptie (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca o exceptie Argument\+Null\+Exception este aruncata cand raspunsul corect este null. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a961f0de5dd2260c45bc1fe32e5388659}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_DoiCorecti\_HardStrategy\_ScorEste6@{CheckAnswer\_DoiCorecti\_HardStrategy\_ScorEste6}}
+\index{CheckAnswer\_DoiCorecti\_HardStrategy\_ScorEste6@{CheckAnswer\_DoiCorecti\_HardStrategy\_ScorEste6}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_DoiCorecti\_HardStrategy\_ScorEste6()}{CheckAnswer\_DoiCorecti\_HardStrategy\_ScorEste6()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a961f0de5dd2260c45bc1fe32e5388659} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Doi\+Corecti\+\_\+\+Hard\+Strategy\+\_\+\+Scor\+Este6 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca doua raspunsuri corecte cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} produc scorul 6. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ad3e931753b6c2198857f5e5db6df9e7f}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_Gresit\_EasyStrategy\_ScorRamane0@{CheckAnswer\_Gresit\_EasyStrategy\_ScorRamane0}}
+\index{CheckAnswer\_Gresit\_EasyStrategy\_ScorRamane0@{CheckAnswer\_Gresit\_EasyStrategy\_ScorRamane0}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_Gresit\_EasyStrategy\_ScorRamane0()}{CheckAnswer\_Gresit\_EasyStrategy\_ScorRamane0()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ad3e931753b6c2198857f5e5db6df9e7f} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Gresit\+\_\+\+Easy\+Strategy\+\_\+\+Scor\+Ramane0 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca un raspuns gresit cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} nu modifica scorul. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a1d587da5aedfb4a6e7281894db9c6ca6}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_Gresit\_HardStrategy\_ScorRamane0@{CheckAnswer\_Gresit\_HardStrategy\_ScorRamane0}}
+\index{CheckAnswer\_Gresit\_HardStrategy\_ScorRamane0@{CheckAnswer\_Gresit\_HardStrategy\_ScorRamane0}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_Gresit\_HardStrategy\_ScorRamane0()}{CheckAnswer\_Gresit\_HardStrategy\_ScorRamane0()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a1d587da5aedfb4a6e7281894db9c6ca6} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Gresit\+\_\+\+Hard\+Strategy\+\_\+\+Scor\+Ramane0 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca un raspuns gresit cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} nu modifica scorul. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aefb9603374a8df71a9523a9e7c0e33fb}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_NumarCaString\_Corect\_ReturneazaTrue@{CheckAnswer\_NumarCaString\_Corect\_ReturneazaTrue}}
+\index{CheckAnswer\_NumarCaString\_Corect\_ReturneazaTrue@{CheckAnswer\_NumarCaString\_Corect\_ReturneazaTrue}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_NumarCaString\_Corect\_ReturneazaTrue()}{CheckAnswer\_NumarCaString\_Corect\_ReturneazaTrue()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aefb9603374a8df71a9523a9e7c0e33fb} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Numar\+Ca\+String\+\_\+\+Corect\+\_\+\+Returneaza\+True (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca un numar reprezentat ca string este comparat corect. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a513a57ab6746f5d2d0c40f8c75c74090}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_RaspunsCorect\_ReturneazaTrue@{CheckAnswer\_RaspunsCorect\_ReturneazaTrue}}
+\index{CheckAnswer\_RaspunsCorect\_ReturneazaTrue@{CheckAnswer\_RaspunsCorect\_ReturneazaTrue}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_RaspunsCorect\_ReturneazaTrue()}{CheckAnswer\_RaspunsCorect\_ReturneazaTrue()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a513a57ab6746f5d2d0c40f8c75c74090} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Raspuns\+Corect\+\_\+\+Returneaza\+True (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca un raspuns corect returneaza true. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a2bf9cb2b6a652b1696942af670218c8c}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_RaspunsGresit\_ReturneazaFalse@{CheckAnswer\_RaspunsGresit\_ReturneazaFalse}}
+\index{CheckAnswer\_RaspunsGresit\_ReturneazaFalse@{CheckAnswer\_RaspunsGresit\_ReturneazaFalse}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_RaspunsGresit\_ReturneazaFalse()}{CheckAnswer\_RaspunsGresit\_ReturneazaFalse()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a2bf9cb2b6a652b1696942af670218c8c} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Raspuns\+Gresit\+\_\+\+Returneaza\+False (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca un raspuns gresit returneaza false. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_af21dba12fe3be4323b64d7e9883f00e7}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_SelectedOptionNull\_AruncaExceptie@{CheckAnswer\_SelectedOptionNull\_AruncaExceptie}}
+\index{CheckAnswer\_SelectedOptionNull\_AruncaExceptie@{CheckAnswer\_SelectedOptionNull\_AruncaExceptie}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_SelectedOptionNull\_AruncaExceptie()}{CheckAnswer\_SelectedOptionNull\_AruncaExceptie()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_af21dba12fe3be4323b64d7e9883f00e7} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Selected\+Option\+Null\+\_\+\+Arunca\+Exceptie (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca o exceptie Argument\+Null\+Exception este aruncata cand raspunsul selectat este null. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ae1bc9a8fd76dfcfe9d9558e0de91df98}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_SpatiuExtra\_ReturneazaFalse@{CheckAnswer\_SpatiuExtra\_ReturneazaFalse}}
+\index{CheckAnswer\_SpatiuExtra\_ReturneazaFalse@{CheckAnswer\_SpatiuExtra\_ReturneazaFalse}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_SpatiuExtra\_ReturneazaFalse()}{CheckAnswer\_SpatiuExtra\_ReturneazaFalse()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ae1bc9a8fd76dfcfe9d9558e0de91df98} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Spatiu\+Extra\+\_\+\+Returneaza\+False (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca un spatiu suplimentar face raspunsul sa fie considerat gresit. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ae579c637871f320b4195b9b42f491302}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_StringGol\_ReturneazaFalse@{CheckAnswer\_StringGol\_ReturneazaFalse}}
+\index{CheckAnswer\_StringGol\_ReturneazaFalse@{CheckAnswer\_StringGol\_ReturneazaFalse}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_StringGol\_ReturneazaFalse()}{CheckAnswer\_StringGol\_ReturneazaFalse()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ae579c637871f320b4195b9b42f491302} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+String\+Gol\+\_\+\+Returneaza\+False (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca un string gol ca raspuns selectat returneaza false. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ab362b1826551ada4fedfb2ba0540b0a2}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_TreiCorecte\_EasyStrategy\_ScorEste3@{CheckAnswer\_TreiCorecte\_EasyStrategy\_ScorEste3}}
+\index{CheckAnswer\_TreiCorecte\_EasyStrategy\_ScorEste3@{CheckAnswer\_TreiCorecte\_EasyStrategy\_ScorEste3}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_TreiCorecte\_EasyStrategy\_ScorEste3()}{CheckAnswer\_TreiCorecte\_EasyStrategy\_ScorEste3()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ab362b1826551ada4fedfb2ba0540b0a2} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Trei\+Corecte\+\_\+\+Easy\+Strategy\+\_\+\+Scor\+Este3 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca trei raspunsuri corecte cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} produc scorul 3. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a70eb0021310346b6002ab71d71040dc0}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_TreiCorecte\_MediumStrategy\_ScorEste6@{CheckAnswer\_TreiCorecte\_MediumStrategy\_ScorEste6}}
+\index{CheckAnswer\_TreiCorecte\_MediumStrategy\_ScorEste6@{CheckAnswer\_TreiCorecte\_MediumStrategy\_ScorEste6}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_TreiCorecte\_MediumStrategy\_ScorEste6()}{CheckAnswer\_TreiCorecte\_MediumStrategy\_ScorEste6()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a70eb0021310346b6002ab71d71040dc0} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Trei\+Corecte\+\_\+\+Medium\+Strategy\+\_\+\+Scor\+Este6 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca trei raspunsuri corecte cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy}{Medium\+Strategy} produc scorul 6. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_abec8044d15326d759ac46bf26d7ea7d8}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!CheckAnswer\_UnCorectUnGresit\_EasyStrategy\_ScorEste1@{CheckAnswer\_UnCorectUnGresit\_EasyStrategy\_ScorEste1}}
+\index{CheckAnswer\_UnCorectUnGresit\_EasyStrategy\_ScorEste1@{CheckAnswer\_UnCorectUnGresit\_EasyStrategy\_ScorEste1}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer\_UnCorectUnGresit\_EasyStrategy\_ScorEste1()}{CheckAnswer\_UnCorectUnGresit\_EasyStrategy\_ScorEste1()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_abec8044d15326d759ac46bf26d7ea7d8} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Check\+Answer\+\_\+\+Un\+Corect\+Un\+Gresit\+\_\+\+Easy\+Strategy\+\_\+\+Scor\+Este1 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca un raspuns corect si unul gresit cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} produc scorul 1. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aad58c1bba19958e3a4250e4d2bc87950}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!EasyStrategy\_CalculateScore\_DeLa0\_Returneaza1@{EasyStrategy\_CalculateScore\_DeLa0\_Returneaza1}}
+\index{EasyStrategy\_CalculateScore\_DeLa0\_Returneaza1@{EasyStrategy\_CalculateScore\_DeLa0\_Returneaza1}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{EasyStrategy\_CalculateScore\_DeLa0\_Returneaza1()}{EasyStrategy\_CalculateScore\_DeLa0\_Returneaza1()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aad58c1bba19958e3a4250e4d2bc87950} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Easy\+Strategy\+\_\+\+Calculate\+Score\+\_\+\+De\+La0\+\_\+\+Returneaza1 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} calculeaza corect scorul pornind de la 0. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a389e36451e0f05febc1ee32a61f584d3}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!EasyStrategy\_FilterQuestions\_ListaGoala\_ReturneazaGol@{EasyStrategy\_FilterQuestions\_ListaGoala\_ReturneazaGol}}
+\index{EasyStrategy\_FilterQuestions\_ListaGoala\_ReturneazaGol@{EasyStrategy\_FilterQuestions\_ListaGoala\_ReturneazaGol}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{EasyStrategy\_FilterQuestions\_ListaGoala\_ReturneazaGol()}{EasyStrategy\_FilterQuestions\_ListaGoala\_ReturneazaGol()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a389e36451e0f05febc1ee32a61f584d3} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Easy\+Strategy\+\_\+\+Filter\+Questions\+\_\+\+Lista\+Goala\+\_\+\+Returneaza\+Gol (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca filtrarea unei liste goale returneaza o lista goala. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_af2cb7de1602130359f7e1e0d22b3aa5d}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!EasyStrategy\_FilterQuestions\_ReturneazaDoarUsor@{EasyStrategy\_FilterQuestions\_ReturneazaDoarUsor}}
+\index{EasyStrategy\_FilterQuestions\_ReturneazaDoarUsor@{EasyStrategy\_FilterQuestions\_ReturneazaDoarUsor}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{EasyStrategy\_FilterQuestions\_ReturneazaDoarUsor()}{EasyStrategy\_FilterQuestions\_ReturneazaDoarUsor()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_af2cb7de1602130359f7e1e0d22b3aa5d} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Easy\+Strategy\+\_\+\+Filter\+Questions\+\_\+\+Returneaza\+Doar\+Usor (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} filtreaza corect si returneaza doar intrebari Usor. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a1a58faa56ded9a777b862d5dfc7356a4}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!FilterQuestions\_NumarCorect\_Usor@{FilterQuestions\_NumarCorect\_Usor}}
+\index{FilterQuestions\_NumarCorect\_Usor@{FilterQuestions\_NumarCorect\_Usor}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{FilterQuestions\_NumarCorect\_Usor()}{FilterQuestions\_NumarCorect\_Usor()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a1a58faa56ded9a777b862d5dfc7356a4} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Filter\+Questions\+\_\+\+Numar\+Corect\+\_\+\+Usor (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca numarul de intrebari Usor filtrate din Sample\+Questions este exact 2. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aae2f13a2917e128f1bfc79d3c36b276a}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!GetCurrentQuestion\_Are4VarianteNenule@{GetCurrentQuestion\_Are4VarianteNenule}}
+\index{GetCurrentQuestion\_Are4VarianteNenule@{GetCurrentQuestion\_Are4VarianteNenule}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{GetCurrentQuestion\_Are4VarianteNenule()}{GetCurrentQuestion\_Are4VarianteNenule()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aae2f13a2917e128f1bfc79d3c36b276a} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Get\+Current\+Question\+\_\+\+Are4\+Variante\+Nenule (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca intrebarea curenta are toate cele 4 variante de raspuns completate. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a154eaa6caaf1ab8fc182fe18fa50c016}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!GetCurrentQuestion\_DupaSetupGame\_NuEsteNull@{GetCurrentQuestion\_DupaSetupGame\_NuEsteNull}}
+\index{GetCurrentQuestion\_DupaSetupGame\_NuEsteNull@{GetCurrentQuestion\_DupaSetupGame\_NuEsteNull}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{GetCurrentQuestion\_DupaSetupGame\_NuEsteNull()}{GetCurrentQuestion\_DupaSetupGame\_NuEsteNull()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a154eaa6caaf1ab8fc182fe18fa50c016} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Get\+Current\+Question\+\_\+\+Dupa\+Setup\+Game\+\_\+\+Nu\+Este\+Null (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca prima intrebare nu este null dupa initializare cu lista de intrebari. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_afb975f2c4b2094221ad7841f29309e42}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!GetCurrentQuestion\_EasyStrategy\_ReturneazaDoarUsor@{GetCurrentQuestion\_EasyStrategy\_ReturneazaDoarUsor}}
+\index{GetCurrentQuestion\_EasyStrategy\_ReturneazaDoarUsor@{GetCurrentQuestion\_EasyStrategy\_ReturneazaDoarUsor}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{GetCurrentQuestion\_EasyStrategy\_ReturneazaDoarUsor()}{GetCurrentQuestion\_EasyStrategy\_ReturneazaDoarUsor()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_afb975f2c4b2094221ad7841f29309e42} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Get\+Current\+Question\+\_\+\+Easy\+Strategy\+\_\+\+Returneaza\+Doar\+Usor (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} returneaza doar intrebari cu dificultatea Usor. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_afa38a8c9eb27495597fe6320b5b1e9a7}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!GetCurrentQuestion\_FaraSetupGame\_EsteNull@{GetCurrentQuestion\_FaraSetupGame\_EsteNull}}
+\index{GetCurrentQuestion\_FaraSetupGame\_EsteNull@{GetCurrentQuestion\_FaraSetupGame\_EsteNull}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{GetCurrentQuestion\_FaraSetupGame\_EsteNull()}{GetCurrentQuestion\_FaraSetupGame\_EsteNull()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_afa38a8c9eb27495597fe6320b5b1e9a7} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Get\+Current\+Question\+\_\+\+Fara\+Setup\+Game\+\_\+\+Este\+Null (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca fara initializarea listei de intrebari, intrebarea curenta este null. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a61a9b160a6ee4620ee2f3827ca5807c5}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!GetCurrentQuestion\_HardStrategy\_ReturneazaDoarGreu@{GetCurrentQuestion\_HardStrategy\_ReturneazaDoarGreu}}
+\index{GetCurrentQuestion\_HardStrategy\_ReturneazaDoarGreu@{GetCurrentQuestion\_HardStrategy\_ReturneazaDoarGreu}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{GetCurrentQuestion\_HardStrategy\_ReturneazaDoarGreu()}{GetCurrentQuestion\_HardStrategy\_ReturneazaDoarGreu()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a61a9b160a6ee4620ee2f3827ca5807c5} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Get\+Current\+Question\+\_\+\+Hard\+Strategy\+\_\+\+Returneaza\+Doar\+Greu (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} returneaza doar intrebari cu dificultatea Greu. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aa9553c8c0f6e106dbf6023edba335ffd}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!GetCurrentQuestion\_MediumStrategy\_ReturneazaDoarMediu@{GetCurrentQuestion\_MediumStrategy\_ReturneazaDoarMediu}}
+\index{GetCurrentQuestion\_MediumStrategy\_ReturneazaDoarMediu@{GetCurrentQuestion\_MediumStrategy\_ReturneazaDoarMediu}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{GetCurrentQuestion\_MediumStrategy\_ReturneazaDoarMediu()}{GetCurrentQuestion\_MediumStrategy\_ReturneazaDoarMediu()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aa9553c8c0f6e106dbf6023edba335ffd} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Get\+Current\+Question\+\_\+\+Medium\+Strategy\+\_\+\+Returneaza\+Doar\+Mediu (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy}{Medium\+Strategy} returneaza doar intrebari cu dificultatea Mediu. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a8581d300f1161d92b087e76c6f227131}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!GetCurrentQuestion\_RaspunsCorectEsteUnadinVariante@{GetCurrentQuestion\_RaspunsCorectEsteUnadinVariante}}
+\index{GetCurrentQuestion\_RaspunsCorectEsteUnadinVariante@{GetCurrentQuestion\_RaspunsCorectEsteUnadinVariante}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{GetCurrentQuestion\_RaspunsCorectEsteUnadinVariante()}{GetCurrentQuestion\_RaspunsCorectEsteUnadinVariante()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a8581d300f1161d92b087e76c6f227131} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Get\+Current\+Question\+\_\+\+Raspuns\+Corect\+Este\+Unadin\+Variante (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca raspunsul corect al intrebarii curente este una dintre cele 4 variante. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a6ce632d31cb9f606ade267e9bb7be1f6}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!HardStrategy\_CalculateScore\_DeLa0\_Returneaza3@{HardStrategy\_CalculateScore\_DeLa0\_Returneaza3}}
+\index{HardStrategy\_CalculateScore\_DeLa0\_Returneaza3@{HardStrategy\_CalculateScore\_DeLa0\_Returneaza3}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{HardStrategy\_CalculateScore\_DeLa0\_Returneaza3()}{HardStrategy\_CalculateScore\_DeLa0\_Returneaza3()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a6ce632d31cb9f606ade267e9bb7be1f6} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Hard\+Strategy\+\_\+\+Calculate\+Score\+\_\+\+De\+La0\+\_\+\+Returneaza3 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} calculeaza corect scorul pornind de la 0. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aa29c0981f490c35e5bca67230b9259de}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!HardStrategy\_CalculateScore\_DeLa9\_Returneaza12@{HardStrategy\_CalculateScore\_DeLa9\_Returneaza12}}
+\index{HardStrategy\_CalculateScore\_DeLa9\_Returneaza12@{HardStrategy\_CalculateScore\_DeLa9\_Returneaza12}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{HardStrategy\_CalculateScore\_DeLa9\_Returneaza12()}{HardStrategy\_CalculateScore\_DeLa9\_Returneaza12()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aa29c0981f490c35e5bca67230b9259de} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Hard\+Strategy\+\_\+\+Calculate\+Score\+\_\+\+De\+La9\+\_\+\+Returneaza12 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} adauga corect 3 puncte la un scor existent. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ad9e8727e85147b5e11fdbd02401d220e}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!HardStrategy\_FilterQuestions\_ReturneazaDoarGreu@{HardStrategy\_FilterQuestions\_ReturneazaDoarGreu}}
+\index{HardStrategy\_FilterQuestions\_ReturneazaDoarGreu@{HardStrategy\_FilterQuestions\_ReturneazaDoarGreu}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{HardStrategy\_FilterQuestions\_ReturneazaDoarGreu()}{HardStrategy\_FilterQuestions\_ReturneazaDoarGreu()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ad9e8727e85147b5e11fdbd02401d220e} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Hard\+Strategy\+\_\+\+Filter\+Questions\+\_\+\+Returneaza\+Doar\+Greu (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} filtreaza corect si returneaza doar intrebari Greu. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_af0abd348a326f68bd36f51179c51e949}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!MediumStrategy\_CalculateScore\_DeLa0\_Returneaza2@{MediumStrategy\_CalculateScore\_DeLa0\_Returneaza2}}
+\index{MediumStrategy\_CalculateScore\_DeLa0\_Returneaza2@{MediumStrategy\_CalculateScore\_DeLa0\_Returneaza2}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{MediumStrategy\_CalculateScore\_DeLa0\_Returneaza2()}{MediumStrategy\_CalculateScore\_DeLa0\_Returneaza2()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_af0abd348a326f68bd36f51179c51e949} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Medium\+Strategy\+\_\+\+Calculate\+Score\+\_\+\+De\+La0\+\_\+\+Returneaza2 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy}{Medium\+Strategy} calculeaza corect scorul pornind de la 0. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a675f5a0407a18c0d6b2a97263b1a1859}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!MediumStrategy\_FilterQuestions\_ReturneazaDoarMediu@{MediumStrategy\_FilterQuestions\_ReturneazaDoarMediu}}
+\index{MediumStrategy\_FilterQuestions\_ReturneazaDoarMediu@{MediumStrategy\_FilterQuestions\_ReturneazaDoarMediu}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{MediumStrategy\_FilterQuestions\_ReturneazaDoarMediu()}{MediumStrategy\_FilterQuestions\_ReturneazaDoarMediu()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a675f5a0407a18c0d6b2a97263b1a1859} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Medium\+Strategy\+\_\+\+Filter\+Questions\+\_\+\+Returneaza\+Doar\+Mediu (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy}{Medium\+Strategy} filtreaza corect si returneaza doar intrebari Mediu. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a761388f7192efee10ad8a5335e74e69a}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!NextQuestion\_DupaToate\_ReturneazaNull@{NextQuestion\_DupaToate\_ReturneazaNull}}
+\index{NextQuestion\_DupaToate\_ReturneazaNull@{NextQuestion\_DupaToate\_ReturneazaNull}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{NextQuestion\_DupaToate\_ReturneazaNull()}{NextQuestion\_DupaToate\_ReturneazaNull()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a761388f7192efee10ad8a5335e74e69a} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Next\+Question\+\_\+\+Dupa\+Toate\+\_\+\+Returneaza\+Null (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca dupa parcurgerea tuturor intrebarilor, Get\+Current\+Question returneaza null. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a15e0cdc97d051fbf968428f0a4d56ac1}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!NextQuestion\_EasyStrategy\_ToateIntrebarile\_SuntUsor@{NextQuestion\_EasyStrategy\_ToateIntrebarile\_SuntUsor}}
+\index{NextQuestion\_EasyStrategy\_ToateIntrebarile\_SuntUsor@{NextQuestion\_EasyStrategy\_ToateIntrebarile\_SuntUsor}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{NextQuestion\_EasyStrategy\_ToateIntrebarile\_SuntUsor()}{NextQuestion\_EasyStrategy\_ToateIntrebarile\_SuntUsor()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a15e0cdc97d051fbf968428f0a4d56ac1} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Next\+Question\+\_\+\+Easy\+Strategy\+\_\+\+Toate\+Intrebarile\+\_\+\+Sunt\+Usor (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca toate intrebarile parcurse cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{Easy\+Strategy} au dificultatea Usor. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a0456aabc9474feb1e2e35d5299859417}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!NextQuestion\_HardStrategy\_ToateIntrebarile\_SuntGreu@{NextQuestion\_HardStrategy\_ToateIntrebarile\_SuntGreu}}
+\index{NextQuestion\_HardStrategy\_ToateIntrebarile\_SuntGreu@{NextQuestion\_HardStrategy\_ToateIntrebarile\_SuntGreu}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{NextQuestion\_HardStrategy\_ToateIntrebarile\_SuntGreu()}{NextQuestion\_HardStrategy\_ToateIntrebarile\_SuntGreu()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a0456aabc9474feb1e2e35d5299859417} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Next\+Question\+\_\+\+Hard\+Strategy\+\_\+\+Toate\+Intrebarile\+\_\+\+Sunt\+Greu (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca toate intrebarile parcurse cu \doxylink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy}{Hard\+Strategy} au dificultatea Greu. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ae4e04e2db67e005a13987b8a4e98d046}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!NextQuestion\_SchimbaIntrebareaCurenta@{NextQuestion\_SchimbaIntrebareaCurenta}}
+\index{NextQuestion\_SchimbaIntrebareaCurenta@{NextQuestion\_SchimbaIntrebareaCurenta}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{NextQuestion\_SchimbaIntrebareaCurenta()}{NextQuestion\_SchimbaIntrebareaCurenta()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ae4e04e2db67e005a13987b8a4e98d046} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Next\+Question\+\_\+\+Schimba\+Intrebarea\+Curenta (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca Next\+Question schimba efectiv intrebarea curenta. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a1857d722a33324b0108cbdb31c5283c4}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!Question\_ProprietatiSetate\_SeStocheazaCorect@{Question\_ProprietatiSetate\_SeStocheazaCorect}}
+\index{Question\_ProprietatiSetate\_SeStocheazaCorect@{Question\_ProprietatiSetate\_SeStocheazaCorect}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{Question\_ProprietatiSetate\_SeStocheazaCorect()}{Question\_ProprietatiSetate\_SeStocheazaCorect()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a1857d722a33324b0108cbdb31c5283c4} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Question\+\_\+\+Proprietati\+Setate\+\_\+\+Se\+Stocheaza\+Corect (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca proprietatile unui obiect \doxylink{class_quiz_game_1_1_access_data_1_1_question}{Question} sunt stocate si returnate corect. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_af54dbe03fa409b5101f5322605fdb3c3}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!QuizManager\_ListaNull\_AruncaExceptie@{QuizManager\_ListaNull\_AruncaExceptie}}
+\index{QuizManager\_ListaNull\_AruncaExceptie@{QuizManager\_ListaNull\_AruncaExceptie}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{QuizManager\_ListaNull\_AruncaExceptie()}{QuizManager\_ListaNull\_AruncaExceptie()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_af54dbe03fa409b5101f5322605fdb3c3} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Quiz\+Manager\+\_\+\+Lista\+Null\+\_\+\+Arunca\+Exceptie (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca o exceptie Argument\+Null\+Exception este aruncata cand lista de intrebari este null. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a8c51c713306168fa02a8ad4348497e8f}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!QuizManager\_StrategyNull\_AruncaExceptie@{QuizManager\_StrategyNull\_AruncaExceptie}}
+\index{QuizManager\_StrategyNull\_AruncaExceptie@{QuizManager\_StrategyNull\_AruncaExceptie}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{QuizManager\_StrategyNull\_AruncaExceptie()}{QuizManager\_StrategyNull\_AruncaExceptie()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a8c51c713306168fa02a8ad4348497e8f} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Quiz\+Manager\+\_\+\+Strategy\+Null\+\_\+\+Arunca\+Exceptie (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca o exceptie Argument\+Null\+Exception este aruncata cand strategia este null. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aa9c1dcea9e3dc3077871df7edc5871b7}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!QuizManager\_StrategyNullCuLista\_AruncaExceptie@{QuizManager\_StrategyNullCuLista\_AruncaExceptie}}
+\index{QuizManager\_StrategyNullCuLista\_AruncaExceptie@{QuizManager\_StrategyNullCuLista\_AruncaExceptie}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{QuizManager\_StrategyNullCuLista\_AruncaExceptie()}{QuizManager\_StrategyNullCuLista\_AruncaExceptie()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_aa9c1dcea9e3dc3077871df7edc5871b7} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Quiz\+Manager\+\_\+\+Strategy\+Null\+Cu\+Lista\+\_\+\+Arunca\+Exceptie (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca o exceptie Argument\+Null\+Exception este aruncata cand strategia este null si se furnizeaza o lista. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a025f020ea309c5674c3dac7d5849d9e8}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!Score\_DupaSetupGame\_EsteZero@{Score\_DupaSetupGame\_EsteZero}}
+\index{Score\_DupaSetupGame\_EsteZero@{Score\_DupaSetupGame\_EsteZero}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{Score\_DupaSetupGame\_EsteZero()}{Score\_DupaSetupGame\_EsteZero()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_a025f020ea309c5674c3dac7d5849d9e8} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Score\+\_\+\+Dupa\+Setup\+Game\+\_\+\+Este\+Zero (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca scorul dupa initializarea cu lista de intrebari este 0. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ab57ec26a884207680f265ea615e716eb}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!Score\_DupaSetupGameDinNou\_SeReseteaza@{Score\_DupaSetupGameDinNou\_SeReseteaza}}
+\index{Score\_DupaSetupGameDinNou\_SeReseteaza@{Score\_DupaSetupGameDinNou\_SeReseteaza}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{Score\_DupaSetupGameDinNou\_SeReseteaza()}{Score\_DupaSetupGameDinNou\_SeReseteaza()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ab57ec26a884207680f265ea615e716eb} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Score\+\_\+\+Dupa\+Setup\+Game\+Din\+Nou\+\_\+\+Se\+Reseteaza (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca un manager nou are scorul resetat la 0, indiferent de sesiunea anterioara. 
+
+\Hypertarget{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ab6a3240fe966e9dff5f181a5cb0f4416}\index{QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}!Score\_Initial\_EsteZero@{Score\_Initial\_EsteZero}}
+\index{Score\_Initial\_EsteZero@{Score\_Initial\_EsteZero}!QuizGame.Tests.QuizGameTests@{QuizGame.Tests.QuizGameTests}}
+\doxysubsubsection{\texorpdfstring{Score\_Initial\_EsteZero()}{Score\_Initial\_EsteZero()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_tests_1_1_quiz_game_tests_ab6a3240fe966e9dff5f181a5cb0f4416} 
+void Quiz\+Game.\+Tests.\+Quiz\+Game\+Tests.\+Score\+\_\+\+Initial\+\_\+\+Este\+Zero (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica ca scorul initial al unui manager nou este 0. 
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+C:\+/\+\+Users/\+new\+\_\+l/\+\+One\+Drive/\+\+Documents/\+aici/\+\+IP-\/\+Proiect-\/\+Quiz\+Game/\+\+Quiz\+Game\+Tests/\+\doxymbox{\hyperlink{_quiz_game_tests_8cs}{Quiz\+Game\+Tests.\+cs}}\end{DoxyCompactItemize}

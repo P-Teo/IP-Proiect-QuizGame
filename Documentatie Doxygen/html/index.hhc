@@ -1,0 +1,613 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Packages"><param name="Local" value="namespaces.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Package List"><param name="Local" value="namespaces.html#top"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame"><param name="Local" value="namespace_quiz_game.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="AccessData"><param name="Local" value="namespace_quiz_game_1_1_access_data.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DataBaseInitializer"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetAllQuestions"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html#a1f734d8c8ed05c39719a4dd0f78b45f8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetQuestionsByDifficulty"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html#a5d43192cb835eeecc118d82a2382dad8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="InitializeDatabase"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html#a6ab1862bb7a6588dbaac9d7bfb70ad3f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="InsertQuestion"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html#a9b69f245baaa1bac73eb76315debb147"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Question"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CorrectOption"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#acdd98abaca3b0cd22f85aea02d7960aa"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DifficultyLevel"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#af02a2cf6c258f9ee326d0b7d7535083b"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Id"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#a37494c4544697491c477d4f026e44d4a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OptionA"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#a9a63b6c99df169ec7c9ff1ed67e7f679"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OptionB"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#a9d70014bc0d917cad7fca1ca2a287609"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OptionC"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#a53643d8a7e414180dd7d1cc985df6daa"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OptionD"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#af6fc850098bc096bde2dfe514e08a8d4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="QuestionText"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#a8635699d16f65214ac89b00e61bba98b"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Logic"><param name="Local" value="namespace_quiz_game_1_1_logic.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Strategies"><param name="Local" value="namespace_quiz_game_1_1_logic_1_1_strategies.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="EasyStrategy"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateScore"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy.html#a810f2b4ac97b1b4e21eb3677f31a73fd"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="FilterQuestions"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy.html#ac4ba7ee2f81abdd8f594048dd439c448"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="HardStrategy"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateScore"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy.html#a8483e0f6160057072a370408b034731c"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="FilterQuestions"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy.html#ae8c335a403d48431be1999ba9705b9fd"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="IQuizStrategy"><param name="Local" value="interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateScore"><param name="Local" value="interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy.html#aee08fffb730b53b100db52cfa69d59be"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="FilterQuestions"><param name="Local" value="interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy.html#ac0c14d761e0406302eddc1e7bc9e7dce"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MediumStrategy"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateScore"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy.html#a5ddf432815f5f363701356c1d1b81743"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="FilterQuestions"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy.html#a4d2c26035538fb6b6c8a76beab5fd0d0"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#a8dadb6124fa94d5d6c8496d3879e4eb1"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#a34cfa7c7f1703f1ca5e38d5a07628db6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#a1f978c6fc69eab310db61d9cc43c3d9c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#aad9417305b0f132bc3252b241433cf1c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="NextQuestion"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#afddc7d7430f6dc15de40416103362d07"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SetupGame"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#a6969dfd3e6c66d0cf3669f759612d921"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Score"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#a86e1e83e352480f419ae91f570b3157e"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Properties"><param name="Local" value="namespace_quiz_game_1_1_properties.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Tests"><param name="Local" value="namespace_quiz_game_1_1_tests.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGameTests"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_AmbeleGoale_ReturneazaTrue"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ab454574931f1fcd9d6f07fc1cac419e5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_CaseSensitive_ReturneazaFalse"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a56504257e741e9f2e3c3445c64083125"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_Corect_EasyStrategy_ScorCreste1"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a40927a5d85da43bfcdd79dca01e9d198"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_Corect_HardStrategy_ScorCreste3"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a96e94ff2f1f12d0fd1d10e980d8ec1ef"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_Corect_MediumStrategy_ScorCreste2"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#acb09e2ddf12fc860e62b7d20a1c03cb0"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_CorrectOptionNull_AruncaExceptie"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ab732222a805b0b76b25778611747645f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_DoiCorecti_HardStrategy_ScorEste6"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a961f0de5dd2260c45bc1fe32e5388659"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_Gresit_EasyStrategy_ScorRamane0"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ad3e931753b6c2198857f5e5db6df9e7f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_Gresit_HardStrategy_ScorRamane0"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a1d587da5aedfb4a6e7281894db9c6ca6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_NumarCaString_Corect_ReturneazaTrue"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aefb9603374a8df71a9523a9e7c0e33fb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_RaspunsCorect_ReturneazaTrue"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a513a57ab6746f5d2d0c40f8c75c74090"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_RaspunsGresit_ReturneazaFalse"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a2bf9cb2b6a652b1696942af670218c8c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_SelectedOptionNull_AruncaExceptie"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#af21dba12fe3be4323b64d7e9883f00e7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_SpatiuExtra_ReturneazaFalse"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ae1bc9a8fd76dfcfe9d9558e0de91df98"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_StringGol_ReturneazaFalse"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ae579c637871f320b4195b9b42f491302"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_TreiCorecte_EasyStrategy_ScorEste3"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ab362b1826551ada4fedfb2ba0540b0a2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_TreiCorecte_MediumStrategy_ScorEste6"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a70eb0021310346b6002ab71d71040dc0"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_UnCorectUnGresit_EasyStrategy_ScorEste1"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#abec8044d15326d759ac46bf26d7ea7d8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="EasyStrategy_CalculateScore_DeLa0_Returneaza1"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aad58c1bba19958e3a4250e4d2bc87950"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="EasyStrategy_FilterQuestions_ListaGoala_ReturneazaGol"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a389e36451e0f05febc1ee32a61f584d3"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="EasyStrategy_FilterQuestions_ReturneazaDoarUsor"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#af2cb7de1602130359f7e1e0d22b3aa5d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="FilterQuestions_NumarCorect_Usor"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a1a58faa56ded9a777b862d5dfc7356a4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_Are4VarianteNenule"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aae2f13a2917e128f1bfc79d3c36b276a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_DupaSetupGame_NuEsteNull"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a154eaa6caaf1ab8fc182fe18fa50c016"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_EasyStrategy_ReturneazaDoarUsor"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#afb975f2c4b2094221ad7841f29309e42"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_FaraSetupGame_EsteNull"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#afa38a8c9eb27495597fe6320b5b1e9a7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_HardStrategy_ReturneazaDoarGreu"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a61a9b160a6ee4620ee2f3827ca5807c5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_MediumStrategy_ReturneazaDoarMediu"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aa9553c8c0f6e106dbf6023edba335ffd"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_RaspunsCorectEsteUnadinVariante"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a8581d300f1161d92b087e76c6f227131"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="HardStrategy_CalculateScore_DeLa0_Returneaza3"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a6ce632d31cb9f606ade267e9bb7be1f6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="HardStrategy_CalculateScore_DeLa9_Returneaza12"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aa29c0981f490c35e5bca67230b9259de"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="HardStrategy_FilterQuestions_ReturneazaDoarGreu"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ad9e8727e85147b5e11fdbd02401d220e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MediumStrategy_CalculateScore_DeLa0_Returneaza2"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#af0abd348a326f68bd36f51179c51e949"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MediumStrategy_FilterQuestions_ReturneazaDoarMediu"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a675f5a0407a18c0d6b2a97263b1a1859"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="NextQuestion_DupaToate_ReturneazaNull"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a761388f7192efee10ad8a5335e74e69a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="NextQuestion_EasyStrategy_ToateIntrebarile_SuntUsor"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a15e0cdc97d051fbf968428f0a4d56ac1"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="NextQuestion_HardStrategy_ToateIntrebarile_SuntGreu"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a0456aabc9474feb1e2e35d5299859417"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="NextQuestion_SchimbaIntrebareaCurenta"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ae4e04e2db67e005a13987b8a4e98d046"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Question_ProprietatiSetate_SeStocheazaCorect"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a1857d722a33324b0108cbdb31c5283c4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager_ListaNull_AruncaExceptie"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#af54dbe03fa409b5101f5322605fdb3c3"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager_StrategyNull_AruncaExceptie"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a8c51c713306168fa02a8ad4348497e8f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager_StrategyNullCuLista_AruncaExceptie"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aa9c1dcea9e3dc3077871df7edc5871b7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Score_DupaSetupGame_EsteZero"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a025f020ea309c5674c3dac7d5849d9e8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Score_DupaSetupGameDinNou_SeReseteaza"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ab57ec26a884207680f265ea615e716eb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Score_Initial_EsteZero"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ab6a3240fe966e9dff5f181a5cb0f4416"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="EndForm"><param name="Local" value="class_quiz_game_1_1_end_form.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="EndForm"><param name="Local" value="class_quiz_game_1_1_end_form.html#a8381de2b793a0a790bbde85a4abb8eac"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="class_quiz_game_1_1_end_form.html#a253e03e2444284ba2807cceffe87bbda"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosed"><param name="Local" value="class_quiz_game_1_1_end_form.html#af5c5be02ee679185ff29a013ce1b0099"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="FormQuiz"><param name="Local" value="class_quiz_game_1_1_form_quiz.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FormQuiz"><param name="Local" value="class_quiz_game_1_1_form_quiz.html#ab0079128c6000c4e025b0542012d17a0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="class_quiz_game_1_1_form_quiz.html#a4ad508d09ed7bc3e37cc8596fc65767a"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="HomeForm"><param name="Local" value="class_quiz_game_1_1_home_form.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="HomeForm"><param name="Local" value="class_quiz_game_1_1_home_form.html#a0c86ce6d1bebda978a03b056337754e4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="class_quiz_game_1_1_home_form.html#ad68ff0a7c8c107c2c6dfd7d624d3ff12"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizException"><param name="Local" value="class_quiz_game_1_1_quiz_exception.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizException"><param name="Local" value="class_quiz_game_1_1_quiz_exception.html#adbb297f608f7eed9c41c40da167d85ee"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Classes"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class List"><param name="Local" value="annotated.html#top"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame"><param name="Local" value="namespace_quiz_game.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="AccessData"><param name="Local" value="namespace_quiz_game_1_1_access_data.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DataBaseInitializer"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetAllQuestions"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html#a1f734d8c8ed05c39719a4dd0f78b45f8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetQuestionsByDifficulty"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html#a5d43192cb835eeecc118d82a2382dad8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="InitializeDatabase"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html#a6ab1862bb7a6588dbaac9d7bfb70ad3f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="InsertQuestion"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html#a9b69f245baaa1bac73eb76315debb147"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Question"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CorrectOption"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#acdd98abaca3b0cd22f85aea02d7960aa"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DifficultyLevel"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#af02a2cf6c258f9ee326d0b7d7535083b"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Id"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#a37494c4544697491c477d4f026e44d4a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OptionA"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#a9a63b6c99df169ec7c9ff1ed67e7f679"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OptionB"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#a9d70014bc0d917cad7fca1ca2a287609"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OptionC"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#a53643d8a7e414180dd7d1cc985df6daa"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OptionD"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#af6fc850098bc096bde2dfe514e08a8d4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="QuestionText"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#a8635699d16f65214ac89b00e61bba98b"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Logic"><param name="Local" value="namespace_quiz_game_1_1_logic.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Strategies"><param name="Local" value="namespace_quiz_game_1_1_logic_1_1_strategies.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="EasyStrategy"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateScore"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy.html#a810f2b4ac97b1b4e21eb3677f31a73fd"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="FilterQuestions"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy.html#ac4ba7ee2f81abdd8f594048dd439c448"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="HardStrategy"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateScore"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy.html#a8483e0f6160057072a370408b034731c"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="FilterQuestions"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy.html#ae8c335a403d48431be1999ba9705b9fd"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="IQuizStrategy"><param name="Local" value="interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateScore"><param name="Local" value="interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy.html#aee08fffb730b53b100db52cfa69d59be"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="FilterQuestions"><param name="Local" value="interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy.html#ac0c14d761e0406302eddc1e7bc9e7dce"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MediumStrategy"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateScore"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy.html#a5ddf432815f5f363701356c1d1b81743"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="FilterQuestions"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy.html#a4d2c26035538fb6b6c8a76beab5fd0d0"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#a8dadb6124fa94d5d6c8496d3879e4eb1"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#a34cfa7c7f1703f1ca5e38d5a07628db6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#a1f978c6fc69eab310db61d9cc43c3d9c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#aad9417305b0f132bc3252b241433cf1c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="NextQuestion"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#afddc7d7430f6dc15de40416103362d07"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SetupGame"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#a6969dfd3e6c66d0cf3669f759612d921"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Score"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#a86e1e83e352480f419ae91f570b3157e"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Tests"><param name="Local" value="namespace_quiz_game_1_1_tests.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGameTests"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_AmbeleGoale_ReturneazaTrue"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ab454574931f1fcd9d6f07fc1cac419e5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_CaseSensitive_ReturneazaFalse"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a56504257e741e9f2e3c3445c64083125"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_Corect_EasyStrategy_ScorCreste1"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a40927a5d85da43bfcdd79dca01e9d198"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_Corect_HardStrategy_ScorCreste3"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a96e94ff2f1f12d0fd1d10e980d8ec1ef"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_Corect_MediumStrategy_ScorCreste2"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#acb09e2ddf12fc860e62b7d20a1c03cb0"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_CorrectOptionNull_AruncaExceptie"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ab732222a805b0b76b25778611747645f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_DoiCorecti_HardStrategy_ScorEste6"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a961f0de5dd2260c45bc1fe32e5388659"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_Gresit_EasyStrategy_ScorRamane0"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ad3e931753b6c2198857f5e5db6df9e7f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_Gresit_HardStrategy_ScorRamane0"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a1d587da5aedfb4a6e7281894db9c6ca6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_NumarCaString_Corect_ReturneazaTrue"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aefb9603374a8df71a9523a9e7c0e33fb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_RaspunsCorect_ReturneazaTrue"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a513a57ab6746f5d2d0c40f8c75c74090"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_RaspunsGresit_ReturneazaFalse"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a2bf9cb2b6a652b1696942af670218c8c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_SelectedOptionNull_AruncaExceptie"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#af21dba12fe3be4323b64d7e9883f00e7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_SpatiuExtra_ReturneazaFalse"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ae1bc9a8fd76dfcfe9d9558e0de91df98"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_StringGol_ReturneazaFalse"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ae579c637871f320b4195b9b42f491302"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_TreiCorecte_EasyStrategy_ScorEste3"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ab362b1826551ada4fedfb2ba0540b0a2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_TreiCorecte_MediumStrategy_ScorEste6"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a70eb0021310346b6002ab71d71040dc0"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_UnCorectUnGresit_EasyStrategy_ScorEste1"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#abec8044d15326d759ac46bf26d7ea7d8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="EasyStrategy_CalculateScore_DeLa0_Returneaza1"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aad58c1bba19958e3a4250e4d2bc87950"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="EasyStrategy_FilterQuestions_ListaGoala_ReturneazaGol"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a389e36451e0f05febc1ee32a61f584d3"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="EasyStrategy_FilterQuestions_ReturneazaDoarUsor"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#af2cb7de1602130359f7e1e0d22b3aa5d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="FilterQuestions_NumarCorect_Usor"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a1a58faa56ded9a777b862d5dfc7356a4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_Are4VarianteNenule"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aae2f13a2917e128f1bfc79d3c36b276a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_DupaSetupGame_NuEsteNull"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a154eaa6caaf1ab8fc182fe18fa50c016"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_EasyStrategy_ReturneazaDoarUsor"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#afb975f2c4b2094221ad7841f29309e42"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_FaraSetupGame_EsteNull"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#afa38a8c9eb27495597fe6320b5b1e9a7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_HardStrategy_ReturneazaDoarGreu"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a61a9b160a6ee4620ee2f3827ca5807c5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_MediumStrategy_ReturneazaDoarMediu"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aa9553c8c0f6e106dbf6023edba335ffd"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_RaspunsCorectEsteUnadinVariante"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a8581d300f1161d92b087e76c6f227131"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="HardStrategy_CalculateScore_DeLa0_Returneaza3"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a6ce632d31cb9f606ade267e9bb7be1f6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="HardStrategy_CalculateScore_DeLa9_Returneaza12"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aa29c0981f490c35e5bca67230b9259de"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="HardStrategy_FilterQuestions_ReturneazaDoarGreu"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ad9e8727e85147b5e11fdbd02401d220e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MediumStrategy_CalculateScore_DeLa0_Returneaza2"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#af0abd348a326f68bd36f51179c51e949"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MediumStrategy_FilterQuestions_ReturneazaDoarMediu"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a675f5a0407a18c0d6b2a97263b1a1859"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="NextQuestion_DupaToate_ReturneazaNull"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a761388f7192efee10ad8a5335e74e69a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="NextQuestion_EasyStrategy_ToateIntrebarile_SuntUsor"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a15e0cdc97d051fbf968428f0a4d56ac1"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="NextQuestion_HardStrategy_ToateIntrebarile_SuntGreu"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a0456aabc9474feb1e2e35d5299859417"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="NextQuestion_SchimbaIntrebareaCurenta"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ae4e04e2db67e005a13987b8a4e98d046"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Question_ProprietatiSetate_SeStocheazaCorect"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a1857d722a33324b0108cbdb31c5283c4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager_ListaNull_AruncaExceptie"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#af54dbe03fa409b5101f5322605fdb3c3"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager_StrategyNull_AruncaExceptie"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a8c51c713306168fa02a8ad4348497e8f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager_StrategyNullCuLista_AruncaExceptie"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aa9c1dcea9e3dc3077871df7edc5871b7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Score_DupaSetupGame_EsteZero"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a025f020ea309c5674c3dac7d5849d9e8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Score_DupaSetupGameDinNou_SeReseteaza"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ab57ec26a884207680f265ea615e716eb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Score_Initial_EsteZero"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ab6a3240fe966e9dff5f181a5cb0f4416"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="EndForm"><param name="Local" value="class_quiz_game_1_1_end_form.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="EndForm"><param name="Local" value="class_quiz_game_1_1_end_form.html#a8381de2b793a0a790bbde85a4abb8eac"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="class_quiz_game_1_1_end_form.html#a253e03e2444284ba2807cceffe87bbda"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosed"><param name="Local" value="class_quiz_game_1_1_end_form.html#af5c5be02ee679185ff29a013ce1b0099"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="FormQuiz"><param name="Local" value="class_quiz_game_1_1_form_quiz.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FormQuiz"><param name="Local" value="class_quiz_game_1_1_form_quiz.html#ab0079128c6000c4e025b0542012d17a0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="class_quiz_game_1_1_form_quiz.html#a4ad508d09ed7bc3e37cc8596fc65767a"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="HomeForm"><param name="Local" value="class_quiz_game_1_1_home_form.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="HomeForm"><param name="Local" value="class_quiz_game_1_1_home_form.html#a0c86ce6d1bebda978a03b056337754e4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="class_quiz_game_1_1_home_form.html#ad68ff0a7c8c107c2c6dfd7d624d3ff12"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizException"><param name="Local" value="class_quiz_game_1_1_quiz_exception.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizException"><param name="Local" value="class_quiz_game_1_1_quiz_exception.html#adbb297f608f7eed9c41c40da167d85ee"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Index"><param name="Local" value="classes.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Hierarchy"><param name="Local" value="hierarchy.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.AccessData.DataBaseInitializer"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Exception"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.QuizException"><param name="Local" value="class_quiz_game_1_1_quiz_exception.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Form"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.EndForm"><param name="Local" value="class_quiz_game_1_1_end_form.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.FormQuiz"><param name="Local" value="class_quiz_game_1_1_form_quiz.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.HomeForm"><param name="Local" value="class_quiz_game_1_1_home_form.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.Logic.Strategies.IQuizStrategy"><param name="Local" value="interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.Logic.Strategies.EasyStrategy"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.Logic.Strategies.HardStrategy"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.Logic.Strategies.MediumStrategy"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.AccessData.Question"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.Tests.QuizGameTests"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.Logic.QuizManager"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Members"><param name="Local" value="functions.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="functions.html#top"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="functions_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Properties"><param name="Local" value="functions_prop.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Files"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html#top"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="OneDrive"><param name="Local" value="dir_ded2a7f905c2d34630c595c5cf4eb434.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Documents"><param name="Local" value="dir_dd52ae2abab4d41f938861f86ff3f034.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="aici"><param name="Local" value="dir_8ddcb95a792abe44b00cf85052a9cd64.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="IP-Proiect-QuizGame"><param name="Local" value="dir_0dfca3d5669c2b3c37557eb328cd474a.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame"><param name="Local" value="dir_f39ecfee9f6770c101e2d8e71d22fa13.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="obj"><param name="Local" value="dir_ba5a867cb1f3bc81c656c39a46038659.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Debug"><param name="Local" value="dir_0a0384e8c8f5724143aa419b83607597.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value=".NETFramework,Version=v4.7.2.AssemblyAttributes.cs"><param name="Local" value="_quiz_game_2obj_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Release"><param name="Local" value="dir_f3ccdab43e2bebb6f969d94db59524f5.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value=".NETFramework,Version=v4.7.2.AssemblyAttributes.cs"><param name="Local" value="_quiz_game_2obj_2_release_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="x64"><param name="Local" value="dir_4663bf1d4ed4e00b71a95d0990cda78c.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Debug"><param name="Local" value="dir_a140f178f25b1de7c5609989f768e449.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value=".NETFramework,Version=v4.7.2.AssemblyAttributes.cs"><param name="Local" value="_quiz_game_2obj_2x64_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Release"><param name="Local" value="dir_330ecea9b799c12d9bc835d23fb20ccd.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value=".NETFramework,Version=v4.7.2.AssemblyAttributes.cs"><param name="Local" value="_quiz_game_2obj_2x64_2_release_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Properties"><param name="Local" value="dir_424002c8eb0e02f6ed005a2fbc674d45.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="AssemblyInfo.cs"><param name="Local" value="_quiz_game_2_properties_2_assembly_info_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Resources.Designer.cs"><param name="Local" value="_resources_8_designer_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Settings.Designer.cs"><param name="Local" value="_settings_8_designer_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="EndForm.cs"><param name="Local" value="_end_form_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.EndForm"><param name="Local" value="class_quiz_game_1_1_end_form.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="EndForm"><param name="Local" value="class_quiz_game_1_1_end_form.html#a8381de2b793a0a790bbde85a4abb8eac"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="class_quiz_game_1_1_end_form.html#a253e03e2444284ba2807cceffe87bbda"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosed"><param name="Local" value="class_quiz_game_1_1_end_form.html#af5c5be02ee679185ff29a013ce1b0099"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="EndForm.Designer.cs"><param name="Local" value="_end_form_8_designer_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.EndForm"><param name="Local" value="class_quiz_game_1_1_end_form.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="EndForm"><param name="Local" value="class_quiz_game_1_1_end_form.html#a8381de2b793a0a790bbde85a4abb8eac"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="class_quiz_game_1_1_end_form.html#a253e03e2444284ba2807cceffe87bbda"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosed"><param name="Local" value="class_quiz_game_1_1_end_form.html#af5c5be02ee679185ff29a013ce1b0099"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="FormQuiz.cs"><param name="Local" value="_form_quiz_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.FormQuiz"><param name="Local" value="class_quiz_game_1_1_form_quiz.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="FormQuiz"><param name="Local" value="class_quiz_game_1_1_form_quiz.html#ab0079128c6000c4e025b0542012d17a0"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="class_quiz_game_1_1_form_quiz.html#a4ad508d09ed7bc3e37cc8596fc65767a"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="FormQuiz.Designer.cs"><param name="Local" value="_form_quiz_8_designer_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.FormQuiz"><param name="Local" value="class_quiz_game_1_1_form_quiz.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="FormQuiz"><param name="Local" value="class_quiz_game_1_1_form_quiz.html#ab0079128c6000c4e025b0542012d17a0"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="class_quiz_game_1_1_form_quiz.html#a4ad508d09ed7bc3e37cc8596fc65767a"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="HomeForm.cs"><param name="Local" value="_home_form_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.HomeForm"><param name="Local" value="class_quiz_game_1_1_home_form.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="HomeForm"><param name="Local" value="class_quiz_game_1_1_home_form.html#a0c86ce6d1bebda978a03b056337754e4"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="class_quiz_game_1_1_home_form.html#ad68ff0a7c8c107c2c6dfd7d624d3ff12"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="HomeForm.Designer.cs"><param name="Local" value="_home_form_8_designer_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.HomeForm"><param name="Local" value="class_quiz_game_1_1_home_form.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="HomeForm"><param name="Local" value="class_quiz_game_1_1_home_form.html#a0c86ce6d1bebda978a03b056337754e4"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="class_quiz_game_1_1_home_form.html#ad68ff0a7c8c107c2c6dfd7d624d3ff12"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Program.cs"><param name="Local" value="_program_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizException.cs"><param name="Local" value="_quiz_exception_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.QuizException"><param name="Local" value="class_quiz_game_1_1_quiz_exception.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizException"><param name="Local" value="class_quiz_game_1_1_quiz_exception.html#adbb297f608f7eed9c41c40da167d85ee"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.AccessData"><param name="Local" value="dir_c733c13ea55f129761d90787aa07ec95.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="obj"><param name="Local" value="dir_dfb99b45a56ef0511d65827ed93d9a55.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Debug"><param name="Local" value="dir_fc02f4e80aa2a3680296d028a70cd0ef.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value=".NETFramework,Version=v4.7.2.AssemblyAttributes.cs"><param name="Local" value="_quiz_game_8_access_data_2obj_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Release"><param name="Local" value="dir_d4067b5b1ceb1ca4cb5a2026af53d7f7.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value=".NETFramework,Version=v4.7.2.AssemblyAttributes.cs"><param name="Local" value="_quiz_game_8_access_data_2obj_2_release_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="x64"><param name="Local" value="dir_0385f58b99a13dc63845e7d25eeb2080.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Debug"><param name="Local" value="dir_52024dfcca3668ff3b15f1b1fb27847a.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value=".NETFramework,Version=v4.7.2.AssemblyAttributes.cs"><param name="Local" value="_quiz_game_8_access_data_2obj_2x64_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Release"><param name="Local" value="dir_c53e949b6258d362f3e0f434cc059314.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value=".NETFramework,Version=v4.7.2.AssemblyAttributes.cs"><param name="Local" value="_quiz_game_8_access_data_2obj_2x64_2_release_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Properties"><param name="Local" value="dir_87342d195c2d01dc54ae12729f8df9d3.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="AssemblyInfo.cs"><param name="Local" value="_quiz_game_8_access_data_2_properties_2_assembly_info_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="DataBaseInitializer.cs"><param name="Local" value="_data_base_initializer_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.AccessData.DataBaseInitializer"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="GetAllQuestions"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html#a1f734d8c8ed05c39719a4dd0f78b45f8"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="GetQuestionsByDifficulty"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html#a5d43192cb835eeecc118d82a2382dad8"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="InitializeDatabase"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html#a6ab1862bb7a6588dbaac9d7bfb70ad3f"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="InsertQuestion"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_data_base_initializer.html#a9b69f245baaa1bac73eb76315debb147"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Question.cs"><param name="Local" value="_question_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.AccessData.Question"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CorrectOption"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#acdd98abaca3b0cd22f85aea02d7960aa"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="DifficultyLevel"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#af02a2cf6c258f9ee326d0b7d7535083b"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Id"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#a37494c4544697491c477d4f026e44d4a"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="OptionA"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#a9a63b6c99df169ec7c9ff1ed67e7f679"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="OptionB"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#a9d70014bc0d917cad7fca1ca2a287609"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="OptionC"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#a53643d8a7e414180dd7d1cc985df6daa"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="OptionD"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#af6fc850098bc096bde2dfe514e08a8d4"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="QuestionText"><param name="Local" value="class_quiz_game_1_1_access_data_1_1_question.html#a8635699d16f65214ac89b00e61bba98b"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.Logic"><param name="Local" value="dir_a5c3e3a31c34131d092d36f7d36b5507.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="obj"><param name="Local" value="dir_a8c9e0cee67e9ded60a055ea004f04d3.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Debug"><param name="Local" value="dir_ed8cc4c8903706fb31e4aad29584c714.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value=".NETFramework,Version=v4.7.2.AssemblyAttributes.cs"><param name="Local" value="_quiz_game_8_logic_2obj_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Release"><param name="Local" value="dir_451bb5ccfd5f679ac3b235f48548e19a.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value=".NETFramework,Version=v4.7.2.AssemblyAttributes.cs"><param name="Local" value="_quiz_game_8_logic_2obj_2_release_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="x64"><param name="Local" value="dir_13564f2ba18c15746a6acab4de1da706.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Debug"><param name="Local" value="dir_3be5241ed8ea06c2e48dc8148ad34ad5.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value=".NETFramework,Version=v4.7.2.AssemblyAttributes.cs"><param name="Local" value="_quiz_game_8_logic_2obj_2x64_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Release"><param name="Local" value="dir_706baae7110b8254c5097b7d9f09cf31.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value=".NETFramework,Version=v4.7.2.AssemblyAttributes.cs"><param name="Local" value="_quiz_game_8_logic_2obj_2x64_2_release_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Properties"><param name="Local" value="dir_6732403e8ae4b4c112d493401ddf5ee1.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="AssemblyInfo.cs"><param name="Local" value="_quiz_game_8_logic_2_properties_2_assembly_info_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="EasyStrategy.cs"><param name="Local" value="_easy_strategy_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.Logic.Strategies.EasyStrategy"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateScore"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy.html#a810f2b4ac97b1b4e21eb3677f31a73fd"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="FilterQuestions"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy.html#ac4ba7ee2f81abdd8f594048dd439c448"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="HardStrategy.cs"><param name="Local" value="_hard_strategy_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.Logic.Strategies.HardStrategy"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateScore"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy.html#a8483e0f6160057072a370408b034731c"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="FilterQuestions"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy.html#ae8c335a403d48431be1999ba9705b9fd"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="IQuizStrategy.cs"><param name="Local" value="_i_quiz_strategy_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.Logic.Strategies.IQuizStrategy"><param name="Local" value="interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateScore"><param name="Local" value="interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy.html#aee08fffb730b53b100db52cfa69d59be"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="FilterQuestions"><param name="Local" value="interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy.html#ac0c14d761e0406302eddc1e7bc9e7dce"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="MediumStrategy.cs"><param name="Local" value="_medium_strategy_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.Logic.Strategies.MediumStrategy"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateScore"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy.html#a5ddf432815f5f363701356c1d1b81743"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="FilterQuestions"><param name="Local" value="class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy.html#a4d2c26035538fb6b6c8a76beab5fd0d0"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager.cs"><param name="Local" value="_quiz_manager_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.Logic.QuizManager"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#a8dadb6124fa94d5d6c8496d3879e4eb1"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#a34cfa7c7f1703f1ca5e38d5a07628db6"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#a1f978c6fc69eab310db61d9cc43c3d9c"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#aad9417305b0f132bc3252b241433cf1c"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="NextQuestion"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#afddc7d7430f6dc15de40416103362d07"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetupGame"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#a6969dfd3e6c66d0cf3669f759612d921"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Score"><param name="Local" value="class_quiz_game_1_1_logic_1_1_quiz_manager.html#a86e1e83e352480f419ae91f570b3157e"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGameTests"><param name="Local" value="dir_18ede20ab13f52b2fb39cf44bbf74118.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="obj"><param name="Local" value="dir_b020d3b291697ce1aa19dedf1af0b6b5.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Debug"><param name="Local" value="dir_e6b320740f3b2b79615993b237b3be96.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value=".NETFramework,Version=v4.7.2.AssemblyAttributes.cs"><param name="Local" value="_quiz_game_tests_2obj_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Properties"><param name="Local" value="dir_7c80feb1ca1ddd751feea11d26224479.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="AssemblyInfo.cs"><param name="Local" value="_quiz_game_tests_2_properties_2_assembly_info_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGameTests.cs"><param name="Local" value="_quiz_game_tests_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizGame.Tests.QuizGameTests"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_AmbeleGoale_ReturneazaTrue"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ab454574931f1fcd9d6f07fc1cac419e5"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_CaseSensitive_ReturneazaFalse"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a56504257e741e9f2e3c3445c64083125"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_Corect_EasyStrategy_ScorCreste1"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a40927a5d85da43bfcdd79dca01e9d198"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_Corect_HardStrategy_ScorCreste3"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a96e94ff2f1f12d0fd1d10e980d8ec1ef"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_Corect_MediumStrategy_ScorCreste2"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#acb09e2ddf12fc860e62b7d20a1c03cb0"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_CorrectOptionNull_AruncaExceptie"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ab732222a805b0b76b25778611747645f"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_DoiCorecti_HardStrategy_ScorEste6"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a961f0de5dd2260c45bc1fe32e5388659"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_Gresit_EasyStrategy_ScorRamane0"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ad3e931753b6c2198857f5e5db6df9e7f"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_Gresit_HardStrategy_ScorRamane0"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a1d587da5aedfb4a6e7281894db9c6ca6"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_NumarCaString_Corect_ReturneazaTrue"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aefb9603374a8df71a9523a9e7c0e33fb"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_RaspunsCorect_ReturneazaTrue"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a513a57ab6746f5d2d0c40f8c75c74090"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_RaspunsGresit_ReturneazaFalse"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a2bf9cb2b6a652b1696942af670218c8c"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_SelectedOptionNull_AruncaExceptie"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#af21dba12fe3be4323b64d7e9883f00e7"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_SpatiuExtra_ReturneazaFalse"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ae1bc9a8fd76dfcfe9d9558e0de91df98"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_StringGol_ReturneazaFalse"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ae579c637871f320b4195b9b42f491302"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_TreiCorecte_EasyStrategy_ScorEste3"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ab362b1826551ada4fedfb2ba0540b0a2"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_TreiCorecte_MediumStrategy_ScorEste6"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a70eb0021310346b6002ab71d71040dc0"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckAnswer_UnCorectUnGresit_EasyStrategy_ScorEste1"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#abec8044d15326d759ac46bf26d7ea7d8"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="EasyStrategy_CalculateScore_DeLa0_Returneaza1"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aad58c1bba19958e3a4250e4d2bc87950"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="EasyStrategy_FilterQuestions_ListaGoala_ReturneazaGol"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a389e36451e0f05febc1ee32a61f584d3"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="EasyStrategy_FilterQuestions_ReturneazaDoarUsor"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#af2cb7de1602130359f7e1e0d22b3aa5d"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="FilterQuestions_NumarCorect_Usor"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a1a58faa56ded9a777b862d5dfc7356a4"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_Are4VarianteNenule"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aae2f13a2917e128f1bfc79d3c36b276a"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_DupaSetupGame_NuEsteNull"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a154eaa6caaf1ab8fc182fe18fa50c016"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_EasyStrategy_ReturneazaDoarUsor"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#afb975f2c4b2094221ad7841f29309e42"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_FaraSetupGame_EsteNull"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#afa38a8c9eb27495597fe6320b5b1e9a7"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_HardStrategy_ReturneazaDoarGreu"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a61a9b160a6ee4620ee2f3827ca5807c5"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_MediumStrategy_ReturneazaDoarMediu"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aa9553c8c0f6e106dbf6023edba335ffd"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCurrentQuestion_RaspunsCorectEsteUnadinVariante"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a8581d300f1161d92b087e76c6f227131"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="HardStrategy_CalculateScore_DeLa0_Returneaza3"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a6ce632d31cb9f606ade267e9bb7be1f6"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="HardStrategy_CalculateScore_DeLa9_Returneaza12"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aa29c0981f490c35e5bca67230b9259de"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="HardStrategy_FilterQuestions_ReturneazaDoarGreu"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ad9e8727e85147b5e11fdbd02401d220e"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="MediumStrategy_CalculateScore_DeLa0_Returneaza2"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#af0abd348a326f68bd36f51179c51e949"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="MediumStrategy_FilterQuestions_ReturneazaDoarMediu"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a675f5a0407a18c0d6b2a97263b1a1859"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="NextQuestion_DupaToate_ReturneazaNull"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a761388f7192efee10ad8a5335e74e69a"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="NextQuestion_EasyStrategy_ToateIntrebarile_SuntUsor"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a15e0cdc97d051fbf968428f0a4d56ac1"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="NextQuestion_HardStrategy_ToateIntrebarile_SuntGreu"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a0456aabc9474feb1e2e35d5299859417"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="NextQuestion_SchimbaIntrebareaCurenta"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ae4e04e2db67e005a13987b8a4e98d046"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Question_ProprietatiSetate_SeStocheazaCorect"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a1857d722a33324b0108cbdb31c5283c4"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager_ListaNull_AruncaExceptie"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#af54dbe03fa409b5101f5322605fdb3c3"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager_StrategyNull_AruncaExceptie"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a8c51c713306168fa02a8ad4348497e8f"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="QuizManager_StrategyNullCuLista_AruncaExceptie"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#aa9c1dcea9e3dc3077871df7edc5871b7"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Score_DupaSetupGame_EsteZero"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#a025f020ea309c5674c3dac7d5849d9e8"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Score_DupaSetupGameDinNou_SeReseteaza"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ab57ec26a884207680f265ea615e716eb"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Score_Initial_EsteZero"><param name="Local" value="class_quiz_game_1_1_tests_1_1_quiz_game_tests.html#ab6a3240fe966e9dff5f181a5cb0f4416"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                </UL>
+              </UL>
+            </UL>
+          </UL>
+        </UL>
+      </UL>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>

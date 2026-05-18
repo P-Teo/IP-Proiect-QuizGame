@@ -1,0 +1,77 @@
+\doxysection{Quiz\+Game.\+Logic.\+Strategies.\+Medium\+Strategy Class Reference}
+\hypertarget{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy}{}\label{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy}\index{QuizGame.Logic.Strategies.MediumStrategy@{QuizGame.Logic.Strategies.MediumStrategy}}
+
+
+Strategia pentru dificultatea Mediu. Filtreaza doar intrebarile de dificultate medie si acorda 2 puncte per raspuns corect.  
+
+
+Inheritance diagram for Quiz\+Game.\+Logic.\+Strategies.\+Medium\+Strategy:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy_a5ddf432815f5f363701356c1d1b81743}{Calculate\+Score}} (int current\+Score)
+\begin{DoxyCompactList}\small\item\em Calculeaza noul scor dupa un raspuns corect la dificultatea Mediu. Acorda 2 puncte per raspuns corect. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$ \doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy_a4d2c26035538fb6b6c8a76beab5fd0d0}{Filter\+Questions}} (List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$ questions)
+\begin{DoxyCompactList}\small\item\em Filtreaza lista de intrebari, returnand doar cele de nivel Mediu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Strategia pentru dificultatea Mediu. Filtreaza doar intrebarile de dificultate medie si acorda 2 puncte per raspuns corect. 
+
+\label{doc-func-members}
+\Hypertarget{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy_a5ddf432815f5f363701356c1d1b81743}\index{QuizGame.Logic.Strategies.MediumStrategy@{QuizGame.Logic.Strategies.MediumStrategy}!CalculateScore@{CalculateScore}}
+\index{CalculateScore@{CalculateScore}!QuizGame.Logic.Strategies.MediumStrategy@{QuizGame.Logic.Strategies.MediumStrategy}}
+\doxysubsubsection{\texorpdfstring{CalculateScore()}{CalculateScore()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy_a5ddf432815f5f363701356c1d1b81743} 
+int Quiz\+Game.\+Logic.\+Strategies.\+Medium\+Strategy.\+Calculate\+Score (\begin{DoxyParamCaption}\item[{int}]{current\+Score}{}\end{DoxyParamCaption})}
+
+
+
+Calculeaza noul scor dupa un raspuns corect la dificultatea Mediu. Acorda 2 puncte per raspuns corect. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\+Score} & Scorul curent al utilizatorului\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Scorul actualizat cu 2 puncte in plus
+\end{DoxyReturn}
+
+
+Implements \doxymbox{\hyperlink{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy_aee08fffb730b53b100db52cfa69d59be}{Quiz\+Game.\+Logic.\+Strategies.\+IQuiz\+Strategy}}.
+
+\Hypertarget{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy_a4d2c26035538fb6b6c8a76beab5fd0d0}\index{QuizGame.Logic.Strategies.MediumStrategy@{QuizGame.Logic.Strategies.MediumStrategy}!FilterQuestions@{FilterQuestions}}
+\index{FilterQuestions@{FilterQuestions}!QuizGame.Logic.Strategies.MediumStrategy@{QuizGame.Logic.Strategies.MediumStrategy}}
+\doxysubsubsection{\texorpdfstring{FilterQuestions()}{FilterQuestions()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy_a4d2c26035538fb6b6c8a76beab5fd0d0} 
+List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$ Quiz\+Game.\+Logic.\+Strategies.\+Medium\+Strategy.\+Filter\+Questions (\begin{DoxyParamCaption}\item[{List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$}]{questions}{}\end{DoxyParamCaption})}
+
+
+
+Filtreaza lista de intrebari, returnand doar cele de nivel Mediu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em questions} & Lista completa de intrebari din baza de date\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista de intrebari filtrate cu Difficulty\+Level egal cu "{}\+Mediu"{}
+\end{DoxyReturn}
+
+
+Implements \doxymbox{\hyperlink{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy_ac0c14d761e0406302eddc1e7bc9e7dce}{Quiz\+Game.\+Logic.\+Strategies.\+IQuiz\+Strategy}}.
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+C:\+/\+\+Users/\+new\+\_\+l/\+\+One\+Drive/\+\+Documents/\+aici/\+\+IP-\/\+Proiect-\/\+Quiz\+Game/\+\+Quiz\+Game.\+Logic/\+\doxymbox{\hyperlink{_medium_strategy_8cs}{Medium\+Strategy.\+cs}}\end{DoxyCompactItemize}

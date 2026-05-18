@@ -1,0 +1,77 @@
+\doxysection{Quiz\+Game.\+Logic.\+Strategies.\+Easy\+Strategy Class Reference}
+\hypertarget{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}{}\label{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}\index{QuizGame.Logic.Strategies.EasyStrategy@{QuizGame.Logic.Strategies.EasyStrategy}}
+
+
+Strategia pentru dificultatea Usor. Filtreaza doar intrebarile usoare si acorda 1 punct per raspuns corect.  
+
+
+Inheritance diagram for Quiz\+Game.\+Logic.\+Strategies.\+Easy\+Strategy:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy_a810f2b4ac97b1b4e21eb3677f31a73fd}{Calculate\+Score}} (int current\+Score)
+\begin{DoxyCompactList}\small\item\em Calculeaza noul scor dupa un raspuns corect la dificultatea Usor. Acorda 1 punct per raspuns corect. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$ \doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy_ac4ba7ee2f81abdd8f594048dd439c448}{Filter\+Questions}} (List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$ questions)
+\begin{DoxyCompactList}\small\item\em Filtreaza lista de intrebari, returnand doar cele de nivel Usor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Strategia pentru dificultatea Usor. Filtreaza doar intrebarile usoare si acorda 1 punct per raspuns corect. 
+
+\label{doc-func-members}
+\Hypertarget{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy_a810f2b4ac97b1b4e21eb3677f31a73fd}\index{QuizGame.Logic.Strategies.EasyStrategy@{QuizGame.Logic.Strategies.EasyStrategy}!CalculateScore@{CalculateScore}}
+\index{CalculateScore@{CalculateScore}!QuizGame.Logic.Strategies.EasyStrategy@{QuizGame.Logic.Strategies.EasyStrategy}}
+\doxysubsubsection{\texorpdfstring{CalculateScore()}{CalculateScore()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy_a810f2b4ac97b1b4e21eb3677f31a73fd} 
+int Quiz\+Game.\+Logic.\+Strategies.\+Easy\+Strategy.\+Calculate\+Score (\begin{DoxyParamCaption}\item[{int}]{current\+Score}{}\end{DoxyParamCaption})}
+
+
+
+Calculeaza noul scor dupa un raspuns corect la dificultatea Usor. Acorda 1 punct per raspuns corect. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\+Score} & Scorul curent al utilizatorului\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Scorul actualizat cu 1 punct in plus
+\end{DoxyReturn}
+
+
+Implements \doxymbox{\hyperlink{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy_aee08fffb730b53b100db52cfa69d59be}{Quiz\+Game.\+Logic.\+Strategies.\+IQuiz\+Strategy}}.
+
+\Hypertarget{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy_ac4ba7ee2f81abdd8f594048dd439c448}\index{QuizGame.Logic.Strategies.EasyStrategy@{QuizGame.Logic.Strategies.EasyStrategy}!FilterQuestions@{FilterQuestions}}
+\index{FilterQuestions@{FilterQuestions}!QuizGame.Logic.Strategies.EasyStrategy@{QuizGame.Logic.Strategies.EasyStrategy}}
+\doxysubsubsection{\texorpdfstring{FilterQuestions()}{FilterQuestions()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy_ac4ba7ee2f81abdd8f594048dd439c448} 
+List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$ Quiz\+Game.\+Logic.\+Strategies.\+Easy\+Strategy.\+Filter\+Questions (\begin{DoxyParamCaption}\item[{List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$}]{questions}{}\end{DoxyParamCaption})}
+
+
+
+Filtreaza lista de intrebari, returnand doar cele de nivel Usor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em questions} & Lista completa de intrebari din baza de date\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista de intrebari filtrate cu Difficulty\+Level egal cu "{}\+Usor"{}
+\end{DoxyReturn}
+
+
+Implements \doxymbox{\hyperlink{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy_ac0c14d761e0406302eddc1e7bc9e7dce}{Quiz\+Game.\+Logic.\+Strategies.\+IQuiz\+Strategy}}.
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+C:\+/\+\+Users/\+new\+\_\+l/\+\+One\+Drive/\+\+Documents/\+aici/\+\+IP-\/\+Proiect-\/\+Quiz\+Game/\+\+Quiz\+Game.\+Logic/\+\doxymbox{\hyperlink{_easy_strategy_8cs}{Easy\+Strategy.\+cs}}\end{DoxyCompactItemize}

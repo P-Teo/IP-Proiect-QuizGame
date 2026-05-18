@@ -1,0 +1,156 @@
+\doxysection{Quiz\+Game.\+Logic.\+Quiz\+Manager Class Reference}
+\hypertarget{class_quiz_game_1_1_logic_1_1_quiz_manager}{}\label{class_quiz_game_1_1_logic_1_1_quiz_manager}\index{QuizGame.Logic.QuizManager@{QuizGame.Logic.QuizManager}}
+
+
+Clasa principala care gestioneaza logica jocului de quiz. Coordoneaza intrebarile, scorul si interactiunea cu baza de date prin strategia aleasa.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_quiz_manager_a8dadb6124fa94d5d6c8496d3879e4eb1}{Quiz\+Manager}} (\doxymbox{\hyperlink{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy}{IQuiz\+Strategy}} strategy)
+\begin{DoxyCompactList}\small\item\em Constructorul care initializeaza managerul doar cu o strategie. Intrebarile vor fi incarcate ulterior prin apelul metodei Setup\+Game. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_quiz_manager_a34cfa7c7f1703f1ca5e38d5a07628db6}{Quiz\+Manager}} (\doxymbox{\hyperlink{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy}{IQuiz\+Strategy}} strategy, List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$ questions)
+\begin{DoxyCompactList}\small\item\em Constructorul care initializeaza managerul cu o strategie si o lista de intrebari predefinita. Folosit in principal pentru testare, evitand dependenta de baza de date. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_quiz_manager_a6969dfd3e6c66d0cf3669f759612d921}{Setup\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Pregateste jocul:\+ initializeaza baza de date, incarca intrebarile si, daca baza de date este goala, insereaza setul implicit de intrebari pentru toate dificultatiле. \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_quiz_manager_a1f978c6fc69eab310db61d9cc43c3d9c}{Check\+Answer}} (string selected\+Option, string correct\+Option)
+\begin{DoxyCompactList}\small\item\em Verifica daca raspunsul selectat de utilizator este corect. Daca raspunsul este corect, actualizeaza scorul prin strategia curenta. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} \doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_quiz_manager_aad9417305b0f132bc3252b241433cf1c}{Get\+Current\+Question}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza intrebarea curenta din lista, sau null daca nu mai exista intrebari. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_quiz_manager_afddc7d7430f6dc15de40416103362d07}{Next\+Question}} ()
+\begin{DoxyCompactList}\small\item\em Avanseaza la urmatoarea intrebare din lista. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_quiz_manager_a86e1e83e352480f419ae91f570b3157e}{Score}}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasa principala care gestioneaza logica jocului de quiz. Coordoneaza intrebarile, scorul si interactiunea cu baza de date prin strategia aleasa. 
+
+\label{doc-constructors}
+\Hypertarget{class_quiz_game_1_1_logic_1_1_quiz_manager_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_quiz_game_1_1_logic_1_1_quiz_manager_a8dadb6124fa94d5d6c8496d3879e4eb1}\index{QuizGame.Logic.QuizManager@{QuizGame.Logic.QuizManager}!QuizManager@{QuizManager}}
+\index{QuizManager@{QuizManager}!QuizGame.Logic.QuizManager@{QuizGame.Logic.QuizManager}}
+\doxysubsubsection{\texorpdfstring{QuizManager()}{QuizManager()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_logic_1_1_quiz_manager_a8dadb6124fa94d5d6c8496d3879e4eb1} 
+Quiz\+Game.\+Logic.\+Quiz\+Manager.\+Quiz\+Manager (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy}{IQuiz\+Strategy}}}]{strategy}{}\end{DoxyParamCaption})}
+
+
+
+Constructorul care initializeaza managerul doar cu o strategie. Intrebarile vor fi incarcate ulterior prin apelul metodei Setup\+Game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em strategy} & Strategia de dificultate aleasa de utilizator\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Aruncata daca strategia furnizata este null\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_quiz_game_1_1_logic_1_1_quiz_manager_a34cfa7c7f1703f1ca5e38d5a07628db6}\index{QuizGame.Logic.QuizManager@{QuizGame.Logic.QuizManager}!QuizManager@{QuizManager}}
+\index{QuizManager@{QuizManager}!QuizGame.Logic.QuizManager@{QuizGame.Logic.QuizManager}}
+\doxysubsubsection{\texorpdfstring{QuizManager()}{QuizManager()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_logic_1_1_quiz_manager_a34cfa7c7f1703f1ca5e38d5a07628db6} 
+Quiz\+Game.\+Logic.\+Quiz\+Manager.\+Quiz\+Manager (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy}{IQuiz\+Strategy}}}]{strategy}{, }\item[{List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$}]{questions}{}\end{DoxyParamCaption})}
+
+
+
+Constructorul care initializeaza managerul cu o strategie si o lista de intrebari predefinita. Folosit in principal pentru testare, evitand dependenta de baza de date. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em strategy} & Strategia de dificultate aleasa de utilizator\\
+\hline
+{\em questions} & Lista de intrebari furnizata extern\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Aruncata daca strategia sau lista de intrebari este null\\
+\hline
+\end{DoxyExceptions}
+
+
+\label{doc-func-members}
+\Hypertarget{class_quiz_game_1_1_logic_1_1_quiz_manager_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_quiz_game_1_1_logic_1_1_quiz_manager_a1f978c6fc69eab310db61d9cc43c3d9c}\index{QuizGame.Logic.QuizManager@{QuizGame.Logic.QuizManager}!CheckAnswer@{CheckAnswer}}
+\index{CheckAnswer@{CheckAnswer}!QuizGame.Logic.QuizManager@{QuizGame.Logic.QuizManager}}
+\doxysubsubsection{\texorpdfstring{CheckAnswer()}{CheckAnswer()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_logic_1_1_quiz_manager_a1f978c6fc69eab310db61d9cc43c3d9c} 
+bool Quiz\+Game.\+Logic.\+Quiz\+Manager.\+Check\+Answer (\begin{DoxyParamCaption}\item[{string}]{selected\+Option}{, }\item[{string}]{correct\+Option}{}\end{DoxyParamCaption})}
+
+
+
+Verifica daca raspunsul selectat de utilizator este corect. Daca raspunsul este corect, actualizeaza scorul prin strategia curenta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em selected\+Option} & Raspunsul ales de utilizator\\
+\hline
+{\em correct\+Option} & Raspunsul corect al intrebarii\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True daca raspunsul este corect, False in caz contrar
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Aruncata daca oricare dintre parametri este null\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_quiz_game_1_1_logic_1_1_quiz_manager_aad9417305b0f132bc3252b241433cf1c}\index{QuizGame.Logic.QuizManager@{QuizGame.Logic.QuizManager}!GetCurrentQuestion@{GetCurrentQuestion}}
+\index{GetCurrentQuestion@{GetCurrentQuestion}!QuizGame.Logic.QuizManager@{QuizGame.Logic.QuizManager}}
+\doxysubsubsection{\texorpdfstring{GetCurrentQuestion()}{GetCurrentQuestion()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_logic_1_1_quiz_manager_aad9417305b0f132bc3252b241433cf1c} 
+\doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} Quiz\+Game.\+Logic.\+Quiz\+Manager.\+Get\+Current\+Question (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Returneaza intrebarea curenta din lista, sau null daca nu mai exista intrebari. 
+
+\begin{DoxyReturn}{Returns}
+Obiectul \doxylink{class_quiz_game_1_1_access_data_1_1_question}{Question} curent, sau null daca quiz-\/ul s-\/a incheiat
+\end{DoxyReturn}
+\Hypertarget{class_quiz_game_1_1_logic_1_1_quiz_manager_afddc7d7430f6dc15de40416103362d07}\index{QuizGame.Logic.QuizManager@{QuizGame.Logic.QuizManager}!NextQuestion@{NextQuestion}}
+\index{NextQuestion@{NextQuestion}!QuizGame.Logic.QuizManager@{QuizGame.Logic.QuizManager}}
+\doxysubsubsection{\texorpdfstring{NextQuestion()}{NextQuestion()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_logic_1_1_quiz_manager_afddc7d7430f6dc15de40416103362d07} 
+void Quiz\+Game.\+Logic.\+Quiz\+Manager.\+Next\+Question (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Avanseaza la urmatoarea intrebare din lista. 
+
+\Hypertarget{class_quiz_game_1_1_logic_1_1_quiz_manager_a6969dfd3e6c66d0cf3669f759612d921}\index{QuizGame.Logic.QuizManager@{QuizGame.Logic.QuizManager}!SetupGame@{SetupGame}}
+\index{SetupGame@{SetupGame}!QuizGame.Logic.QuizManager@{QuizGame.Logic.QuizManager}}
+\doxysubsubsection{\texorpdfstring{SetupGame()}{SetupGame()}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_logic_1_1_quiz_manager_a6969dfd3e6c66d0cf3669f759612d921} 
+void Quiz\+Game.\+Logic.\+Quiz\+Manager.\+Setup\+Game (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Pregateste jocul:\+ initializeaza baza de date, incarca intrebarile si, daca baza de date este goala, insereaza setul implicit de intrebari pentru toate dificultatiле. 
+
+
+
+\label{doc-property-members}
+\Hypertarget{class_quiz_game_1_1_logic_1_1_quiz_manager_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_quiz_game_1_1_logic_1_1_quiz_manager_a86e1e83e352480f419ae91f570b3157e}\index{QuizGame.Logic.QuizManager@{QuizGame.Logic.QuizManager}!Score@{Score}}
+\index{Score@{Score}!QuizGame.Logic.QuizManager@{QuizGame.Logic.QuizManager}}
+\doxysubsubsection{\texorpdfstring{Score}{Score}}
+{\footnotesize\ttfamily \label{class_quiz_game_1_1_logic_1_1_quiz_manager_a86e1e83e352480f419ae91f570b3157e} 
+int Quiz\+Game.\+Logic.\+Quiz\+Manager.\+Score\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+C:\+/\+\+Users/\+new\+\_\+l/\+\+One\+Drive/\+\+Documents/\+aici/\+\+IP-\/\+Proiect-\/\+Quiz\+Game/\+\+Quiz\+Game.\+Logic/\+\doxymbox{\hyperlink{_quiz_manager_8cs}{Quiz\+Manager.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,77 @@
+\doxysection{Quiz\+Game.\+Logic.\+Strategies.\+IQuiz\+Strategy Interface Reference}
+\hypertarget{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy}{}\label{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy}\index{QuizGame.Logic.Strategies.IQuizStrategy@{QuizGame.Logic.Strategies.IQuizStrategy}}
+
+
+Interfata care defineste contractul pentru strategiile de dificultate ale quiz-\/ului. Fiecare strategie trebuie sa implementeze calculul scorului si filtrarea intrebarilor.  
+
+
+Inheritance diagram for Quiz\+Game.\+Logic.\+Strategies.\+IQuiz\+Strategy:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.393035cm]{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \doxymbox{\hyperlink{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy_aee08fffb730b53b100db52cfa69d59be}{Calculate\+Score}} (int current\+Score)
+\begin{DoxyCompactList}\small\item\em Calculeaza noul scor dupa un raspuns corect, in functie de dificultatea strategiei. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$ \doxymbox{\hyperlink{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy_ac0c14d761e0406302eddc1e7bc9e7dce}{Filter\+Questions}} (List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$ questions)
+\begin{DoxyCompactList}\small\item\em Filtreaza lista completa de intrebari, returnand doar cele specifice dificultatii strategiei. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interfata care defineste contractul pentru strategiile de dificultate ale quiz-\/ului. Fiecare strategie trebuie sa implementeze calculul scorului si filtrarea intrebarilor. 
+
+\label{doc-func-members}
+\Hypertarget{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy_aee08fffb730b53b100db52cfa69d59be}\index{QuizGame.Logic.Strategies.IQuizStrategy@{QuizGame.Logic.Strategies.IQuizStrategy}!CalculateScore@{CalculateScore}}
+\index{CalculateScore@{CalculateScore}!QuizGame.Logic.Strategies.IQuizStrategy@{QuizGame.Logic.Strategies.IQuizStrategy}}
+\doxysubsubsection{\texorpdfstring{CalculateScore()}{CalculateScore()}}
+{\footnotesize\ttfamily \label{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy_aee08fffb730b53b100db52cfa69d59be} 
+int Quiz\+Game.\+Logic.\+Strategies.\+IQuiz\+Strategy.\+Calculate\+Score (\begin{DoxyParamCaption}\item[{int}]{current\+Score}{}\end{DoxyParamCaption})}
+
+
+
+Calculeaza noul scor dupa un raspuns corect, in functie de dificultatea strategiei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\+Score} & Scorul curent al utilizatorului\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Scorul actualizat conform regulilor strategiei
+\end{DoxyReturn}
+
+
+Implemented in \doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy_a810f2b4ac97b1b4e21eb3677f31a73fd}{Quiz\+Game.\+Logic.\+Strategies.\+Easy\+Strategy}}, \doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy_a8483e0f6160057072a370408b034731c}{Quiz\+Game.\+Logic.\+Strategies.\+Hard\+Strategy}}, and \doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy_a5ddf432815f5f363701356c1d1b81743}{Quiz\+Game.\+Logic.\+Strategies.\+Medium\+Strategy}}.
+
+\Hypertarget{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy_ac0c14d761e0406302eddc1e7bc9e7dce}\index{QuizGame.Logic.Strategies.IQuizStrategy@{QuizGame.Logic.Strategies.IQuizStrategy}!FilterQuestions@{FilterQuestions}}
+\index{FilterQuestions@{FilterQuestions}!QuizGame.Logic.Strategies.IQuizStrategy@{QuizGame.Logic.Strategies.IQuizStrategy}}
+\doxysubsubsection{\texorpdfstring{FilterQuestions()}{FilterQuestions()}}
+{\footnotesize\ttfamily \label{interface_quiz_game_1_1_logic_1_1_strategies_1_1_i_quiz_strategy_ac0c14d761e0406302eddc1e7bc9e7dce} 
+List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$ Quiz\+Game.\+Logic.\+Strategies.\+IQuiz\+Strategy.\+Filter\+Questions (\begin{DoxyParamCaption}\item[{List$<$ \doxymbox{\hyperlink{class_quiz_game_1_1_access_data_1_1_question}{Question}} $>$}]{questions}{}\end{DoxyParamCaption})}
+
+
+
+Filtreaza lista completa de intrebari, returnand doar cele specifice dificultatii strategiei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em questions} & Lista completa de intrebari din baza de date\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista de intrebari corespunzatoare dificultatii strategiei curente
+\end{DoxyReturn}
+
+
+Implemented in \doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_strategies_1_1_easy_strategy_ac4ba7ee2f81abdd8f594048dd439c448}{Quiz\+Game.\+Logic.\+Strategies.\+Easy\+Strategy}}, \doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_strategies_1_1_hard_strategy_ae8c335a403d48431be1999ba9705b9fd}{Quiz\+Game.\+Logic.\+Strategies.\+Hard\+Strategy}}, and \doxymbox{\hyperlink{class_quiz_game_1_1_logic_1_1_strategies_1_1_medium_strategy_a4d2c26035538fb6b6c8a76beab5fd0d0}{Quiz\+Game.\+Logic.\+Strategies.\+Medium\+Strategy}}.
+
+
+
+The documentation for this interface was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+C:\+/\+\+Users/\+new\+\_\+l/\+\+One\+Drive/\+\+Documents/\+aici/\+\+IP-\/\+Proiect-\/\+Quiz\+Game/\+\+Quiz\+Game.\+Logic/\+\doxymbox{\hyperlink{_i_quiz_strategy_8cs}{IQuiz\+Strategy.\+cs}}\end{DoxyCompactItemize}
