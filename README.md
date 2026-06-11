@@ -6,7 +6,6 @@ QuizGame este o aplicație desktop educațională dezvoltată în C# utilizând 
 
 Aplicația oferă utilizatorilor posibilitatea de a participa la sesiuni de quiz adaptate nivelului de dificultate ales, beneficiind de validarea automată a răspunsurilor, calculul instant al punctajului și afișarea rezultatelor finale. Scopul principal al proiectului este de a combina învățarea cu divertismentul într-un mediu intuitiv și ușor de utilizat.
 
-Proiectul a fost realizat în cadrul disciplinei **Ingineria Programării** și pune accent pe aplicarea principiilor programării orientate pe obiecte, utilizarea șabloanelor de proiectare software și organizarea modulară a codului.
 
 ---
 
